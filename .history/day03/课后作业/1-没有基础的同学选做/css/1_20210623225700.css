@@ -1,0 +1,24 @@
+/**
+ * @author [Alex Wei]
+ * @email [w2262196@outlook.com]
+ * @create date 2021-06-23 20:44:34
+ * @modify date 2021-06-23 22:56:59
+ * @desc [description]
+ */
+#logo1,.loginBtn{
+    width: 450px;
+    height: 55px;
+    text-align: center;
+}
+.tu{
+    width: 25px;
+    height: 25px;
+    text-align: right;
+}
+.shu{
+    width: 425px;
+    height: 25px;
+}
+.shurucss{
+    border-radius: 15px;
+}

@@ -1,0 +1,37 @@
+/**
+ * @author [Alex Wei]
+ * @email [w2262196@outlook.com]
+ * @create date 2021-06-23 20:44:34
+ * @modify date 2021-06-23 23:45:51
+ * @desc [description]
+ */
+#logo1{
+    width: 400px;
+    height: 55px;
+    text-align: center;
+}
+.loginBtn{
+    width: 400px;
+    height: 40px;
+    text-align: center;
+    background-color: rgb(0, 153, 255);
+}
+input{
+    border-radius: 55px;
+    outline: none;
+    border-color: white;
+    border-width: 0px;
+}
+.di{
+    border-bottom: tomato;
+}
+.dd{
+    border-bottom: solid 2px rgb(226, 221, 221);
+}
+.link1{
+    text-decoration: none;
+}
+.link1:visited{
+    text-decoration: none;
+    text-decoration-color: teal;
+}

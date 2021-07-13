@@ -1,0 +1,158 @@
+<!--
+@author [Alex Wei]
+@email [w2262196@outlook.com]
+@create date 2021-07-09 15:19:09
+@modify date 2021-07-09 16:27:14
+@desc [description]
+-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .common {
+            width: 190px;
+            height: 190px;
+            padding: 10px;
+            border-radius: 15px;
+            border: 1px solid black;
+            /* box-shadow:2px 2px 20px black inset; */
+            box-shadow: 2px 2px 20px black;
+            display: flex;
+            margin-bottom: 10px;
+        }
+
+        .point {
+            width: 50px;
+            height: 50px;
+            border-radius: 50% 50%;
+
+        }
+
+        .line {
+            display: flex;
+        }
+
+        .one {
+            justify-content: center;
+            align-items: center;
+        }
+
+        .one>div {
+            background: red;
+            box-shadow: 2px 2px 10px #cc8888;
+        }
+
+        .two {
+            justify-content: space-evenly;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .two>div {
+            background: green;
+            box-shadow: 2px 2px 10px #60d848;
+        }
+
+        .three {
+            justify-content: space-evenly;
+        }
+
+        .three>div {
+            background: orange;
+            box-shadow: 2px 2px 10px #b4752d;
+        }
+
+        .three>div:nth-child(2) {
+            align-self: center;
+        }
+
+        .three>div:nth-child(3) {
+            align-self: flex-end;
+        }
+
+        .four {
+            justify-content: space-around;
+            flex-direction: column;
+        }
+
+        .four>div>div {
+            background: cornflowerblue;
+            box-shadow: 2px 2px 10px #2972b6;
+        }
+
+        .line1 {
+            /* flex-direction: column; */
+            justify-content: space-evenly;
+        }
+
+        .line2 {
+            /* flex-direction: column; */
+            justify-content: space-evenly;
+        }
+
+        .five{
+            justify-content: space-around;
+            flex-direction: column;
+        }
+
+        .five>div>div{
+            background: darkorchid;
+            box-shadow: 2px 2px 10px #ae60c2;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="one common">
+        <div class="point"></div>
+    </div>
+    <div class="two common">
+        <div class="point"></div>
+        <div class="point"></div>
+    </div>
+    <div class="three common">
+        <div class="point"></div>
+        <div class="point"></div>
+        <div class="point"></div>
+    </div>
+    <div class="four common">
+        <div class="line1 line">
+            <div class="point"></div>
+            <div class="point"></div>
+        </div>
+        <div class="line2 line">
+            <div class="point"></div>
+            <div class="point"></div>
+        </div>
+
+
+    </div>
+    <div class="five common">
+        <div class="line3">
+            <div class="point"></div>
+            <div class="point"></div>
+        </div>
+        <div class="line4">
+            <div class="point"></div>
+        </div>
+        <div class="line5">
+            <div class="point"></div>
+            <div class="point"></div>
+        </div>
+    </div>
+    <div class="six common">
+        <div class="point"></div>
+        <div class="point"></div>
+        <div class="point"></div>
+        <div class="point"></div>
+        <div class="point"></div>
+        <div class="point"></div>
+    </div>
+</body>
+
+</html>

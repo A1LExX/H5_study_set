@@ -1,0 +1,15 @@
+/**
+ * @author [Alex Wei]
+ * @email [w2262196@outlook.com]
+ * @create date 2021-06-24 13:00:50
+ * @modify date 2021-06-24 19:53:53
+ * @desc [description]
+ */
+*{
+    padding: 0;
+    margin: 0;
+}
+.header{
+    width: 1300px;
+    height: 100px;
+}

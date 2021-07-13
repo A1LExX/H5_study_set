@@ -1,0 +1,74 @@
+/**
+ * @author [Alex Wei]
+ * @email [w2262196@outlook.com]
+ * @create date 2021-07-06 19:15:55
+ * @modify date 2021-07-06 19:52:04
+ * @desc [description]
+ */
+*{
+    padding: 0;
+    margin: 0;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.clearfix::after{
+    content: '';
+    display: block;
+    clear: both;
+    height: 0;
+}
+
+.container{
+    min-width: 1600px;
+    margin: 0 auto;
+}
+
+.headerMid{
+    width: 1600px;
+    height: 108px;
+    background: white;
+}
+
+.left{
+    /* width: 217px; */
+    height: 51px;
+    float: left;
+
+}
+
+.headerLeft{
+    width: 118px;
+    height: 51px;
+    background-image: url(../images/logo.png);
+    background-repeat: no-repeat;
+    background-position: -7px center ;
+    float: left;
+}
+
+.headerWord{
+    width: 99px;
+    height: 51px;
+    background-image: url(../images/word.png);
+    background-repeat: no-repeat;
+    background-position: center center ;
+    float: left;
+}
+
+.borderHeader{
+    width: 1px;
+    float: left;
+    height: 51px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.headerRight{
+    font-size: 20px;
+    float: right;
+    color: #7d7d7d;
+}
+

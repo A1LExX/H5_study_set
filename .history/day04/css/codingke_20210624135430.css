@@ -1,0 +1,50 @@
+/**
+ * @author [Alex Wei]
+ * @email [w2262196@outlook.com]
+ * @create date 2021-06-24 13:00:50
+ * @modify date 2021-06-24 13:54:30
+ * @desc [description]
+ */
+.box1 {
+    height: 45px;
+    float: left;
+    margin-left: 80px;
+    text-align: center;
+}
+
+.box2 {
+    height: 45px;
+    float: right;
+    margin-right: 80px;
+    text-align: center;
+}
+
+.logo {
+    align-items: center;
+}
+
+/* .btn{
+     height: 22px;
+ } */
+
+.searchText {
+    height: 25px;
+}
+
+ul {
+    list-style: none;
+    
+}
+
+li {
+    float: left;
+    width: 400px;
+}
+
+.box3{
+    height: 30px;
+}
+/* .box4{
+    float: left;
+} */
+

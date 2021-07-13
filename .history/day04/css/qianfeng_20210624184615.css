@@ -1,0 +1,103 @@
+/**
+ * @author [Alex Wei]
+ * @email [w2262196@outlook.com]
+ * @create date 2021-06-24 17:35:50
+ * @modify date 2021-06-24 18:46:14
+ * @desc [description]
+ */
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.header {
+    width: 1592px;
+    height: 60px;
+    background: #232323;
+}
+
+.daohang{
+    width: 990px;
+    height: 60px;
+    background: powderblue;
+    margin: 0 auto;
+}
+
+.banner{
+    width: 1592px;
+    height: 422px;
+    background: #8cb2bb;
+}
+
+.con{
+    width: 1592px;
+    height: 348px;
+    background: #f5f5f5;
+}
+
+.out{
+    width: 1020px;
+    height: 239px;
+    margin: 0 auto;
+    padding-top: 34px;
+    padding-bottom: 25px;
+}
+
+.box1{
+    width: 255px;
+    height: 289px;
+    background: #a9d7f9;
+    float: left;
+}
+
+.box2{
+    width: 255px;
+    height: 289px;
+    background: #fdc07c;
+    float: left;
+}
+.box3{
+    width: 255px;
+    height: 289px;
+    background: #8adec9;
+    float: left;
+}
+
+.box4{
+    width: 255px;
+    height: 289px;
+    background: #dbaae1;
+    float: left;
+}
+
+.out2{
+    
+}
+
+.con2{
+    width: 893px;
+    height: 226px;
+    /* padding-top: 41px;
+    padding-bottom: 42px; */
+}
+
+.box5{
+    width: 300px;
+    height: 226px;
+    background: #dfb092;
+    float: left;
+}
+
+.box6{
+    width: 354px;
+    height: 226px;
+    background: #ceffff;
+    float: left;
+}
+.box7{
+    width: 239px;
+    height: 226px;
+    background: #fd8200;
+    float: left;
+}
+

@@ -1,0 +1,17 @@
+div{
+    width: 400px;
+    height: 400px;
+    border-radius: 50% 50% 50% 50%;
+    /* background: red; */
+    background: pink;
+    animation: a 2s 3 linear;
+}
+
+@keyframes a{
+    from{
+        background: pink;
+    }
+    to{
+        background: skyblue;
+    }
+}

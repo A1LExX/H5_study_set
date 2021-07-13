@@ -1,0 +1,20 @@
+/* 版心 */
+.container{
+    min-width: 962px;
+    margin: 0 auto;
+}
+
+/* 测试类 */
+.test{
+    border: 1px solid red;
+}
+
+/* logo和搜索 */
+#header{
+    height: 100p;
+}
+
+#header .logo{
+    float: left;
+
+}

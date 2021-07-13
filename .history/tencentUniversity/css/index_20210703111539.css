@@ -1,0 +1,120 @@
+/**
+ * @author [Alex Wei]
+ * @email [w2262196@outlook.com]
+ * @create date 2021-07-03 09:46:10
+ * @modify date 2021-07-03 11:15:39
+ * @desc [description]
+ */
+/* 版心 */
+.container{
+    min-width: 1010px;
+    margin: 0 auto;
+}
+
+/* 消除浮动的影响 */
+.clearfix::after{
+    content: '';
+    display: block;
+    height: 0;
+    clear: both;
+}
+
+html,body{
+    width: 100%;
+}
+
+/* 测试类 */
+.test{
+    border: 1px solid red;
+}
+
+/* 页眉 */
+#header{
+    background-color: #38414a;
+    border-bottom: 2px solid #212a33;
+}
+
+#header .headerMid{
+    width: 1010px;
+}
+
+#header .logo{
+    margin-left: 22px;
+    height: 68px;
+}
+
+#header .logo img{
+    width: 100%;
+    height: 100%;
+}
+
+.logoBorder{
+    width: 1px;
+    height: 40px;
+    float: left;
+    margin-top: 19px;
+}
+
+#header .left{
+    background-color: #131d27;
+}
+
+#header .right{
+    background-color: #3f4750;
+    margin-right: 15px;
+}
+
+.logo,.downList{
+    float: left;
+}
+
+.downList .first{
+    color: #04b141;
+    font-size: 20px;
+}
+
+.downList .down{
+    color: #04b141;
+    font-size: 18px;
+    margin-top: 20px;
+    display: none;
+}
+
+.downList ul{
+    margin-top: 19px;
+    width: 85px;
+    height: 49px;
+    background: #38414a;
+}
+
+.downList:hover .down{
+    display: block;
+}
+
+.downList li{
+   width: 85px;
+   height: 30px; 
+   background-color: #38414a;
+}
+
+.search{
+    width: 428px;
+    height: 32px;
+    float: right;
+}
+
+.search input{
+    width: 378px;
+    height: 32px;
+    vertical-align: middle;
+}
+
+.search button{
+    width: 50px;
+    height: 32px;
+}
+
+.search button img{
+    width: 100%;
+    height: 100%;
+}

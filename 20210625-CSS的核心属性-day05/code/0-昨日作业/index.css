@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* 头部 */
+#head{
+    width: 1592px;
+    height: 62px;
+    background: #000;
+}
+.content{
+    width: 1014px;
+    height: 62px;
+    background: pink;
+    margin: 0 auto;
+}
+/* 轮播 */
+#banner{
+    width: 1592px;
+    height: 420px;
+    background: skyblue;
+}
+/* 产品分类 */
+#industryCla{
+    width: 1592px;
+    height: 350px;
+    background: grey;
+}
+.wrap{
+    width: 1020px;
+    height: 350px;
+    margin: 0 auto;
+}
+.box1{
+    width: 264px;
+    height: 350px;
+    background: #222;
+    float: left;
+}
+.box2{
+    width: 253px;
+    height: 350px;
+    background: pink;
+    float: left;
+}
+.box3{
+    width: 244px;
+    height: 350px;
+    background: green;
+    float: left;
+    
+}
+.box4{
+    width: 253px;
+    height: 350px;
+    background: #ddd;
+    float: left;
+    
+}
+/* 新闻与洽谈 */
+#newsNegotiation{
+    width: 1020px;
+    height: 268px;
+    background: skyblue;
+    margin: 0 auto;
+    padding-top: 40px;
+}
+.left{
+    width: 303px;
+    height: 229px;
+    background: pink;
+    float: left;
+    margin-right: 14px;
+}
+.center{
+    width: 339px;
+    height: 229px;
+    background: purple;
+    float: left;
+    margin-right: 21px;
+}
+.right{
+    width: 337px;
+    height: 229px;
+    background: #222;
+    float: left;
+}
+/* 页脚 */
+#footer{
+    width: 1592px;
+    height: 297px;
+    background: #000;
+    padding-bottom: 40px;
+}
+.footContent{
+    width: 1020px;
+    height: 210px;
+    background: skyblue;
+    margin: 0 auto;
+}
+.fLeft{
+    width: 300px;
+    height: 210px;
+    background: pink;
+    float: left;
+    margin-right: 67px;
+}
+.fCenter{
+    width: 300px;
+    height: 210px;
+    background: #f9f900;
+    float: left;
+    margin-right: 29px;
+}
+.fRight{
+    width: 300px;
+    height: 210px;
+    background: #83faaa;
+    float: left;
+}
+.copyRight{
+    width: 1592px;
+    height: 40px;
+    background: #873900;
+}
+.copyCentent{
+    width: 1020px;
+    height: 40px;
+    background: #83faaa;
+    margin: 0 auto;
+}

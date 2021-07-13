@@ -1,0 +1,50 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.mid{
+    width: 800px;
+    height: 360px;
+    margin: 50px auto;
+    overflow: hidden;
+}
+
+li{
+    list-style-type: none;
+}
+
+.mid ul{
+    width: 800px;
+    height: 360px;
+}
+
+.mid li{
+    width: 160px;
+    height: 360px;
+    display: block;
+    overflow: hidden;
+    float: left;
+    transition: all 0.5s;
+    position: relative;
+}
+
+.mid li:hover {
+    width: 640px;
+}
+
+.title{
+    
+}
+
+ul:hover li{
+    width: 40px;
+}
+
+/* .mid ul:hover li{
+    width: 128px;
+} */
+img{
+    width: 640px;
+    height: 360px;
+}

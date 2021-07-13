@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+		<style>
+			*{padding: 0;margin: 0;}
+			html,body{
+				width: 100%;
+				height: 100%;
+				overflow: hidden;
+			}
+			.tree{
+				width: 600px;
+				position: absolute;
+				bottom: -50px;
+				left: 400px;
+			}
+			.xr{
+				width: 200px;
+				position: absolute;
+				left: -200px;
+				bottom: 0;
+				animation-name: run;
+				animation-duration: 4s;
+				animation-fill-mode: both;
+				animation-timing-function: linear;
+			}
+			@keyframes run{
+				0%{}
+				35%{left: 400px;}
+				60%{left: 400px;}
+				100%{left: 100%;}
+			}
+		</style>
+	</head>
+	<body>
+		<img class="tree" src="img/tree.png"/>
+		<img class="xr" src="img/xr.png"/>
+	</body>
+</html>

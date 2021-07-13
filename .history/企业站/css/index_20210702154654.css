@@ -1,0 +1,32 @@
+/* 版心 */
+.container{
+    min-width: 962px;
+    margin: 0 auto;
+}
+
+/* 消除浮动的影响 */
+.clearfix::after{
+    content: '';
+    display: block;
+    height: 0;
+    clear: both;
+}
+
+/* 测试类 */
+.test{
+    border: 1px solid red;
+}
+
+/* logo和搜索 */
+#header{
+    height: 100px;
+}
+
+#header .logo{
+    float: left;
+
+}
+
+#header .search{
+    float: right;
+}

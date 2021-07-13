@@ -1,0 +1,31 @@
+/**
+ * @author [Alex Wei]
+ * @email [w2262196@outlook.com]
+ * @create date 2021-06-24 17:35:50
+ * @modify date 2021-06-24 17:49:34
+ * @desc [description]
+ */
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.header {
+    width: 1592px;
+    height: 60px;
+    background: #232323;
+}
+
+.daohang{
+    width: 990px;
+    height: 60px;
+    background: powderblue;
+    margin: 0 auto;
+}
+
+.banner{
+    width: 1592px;
+    height: 422px;
+    background: #8cb2bb;
+}
+

@@ -1,0 +1,26 @@
+/**
+ * @author [Alex Wei]
+ * @email [w2262196@outlook.com]
+ * @create date 2021-06-24 00:32:24
+ * @modify date 2021-06-24 00:46:47
+ * @desc [description]
+ */
+form{
+    background-color: rgb(199, 195, 189);
+    width: 400px;
+}
+#title{
+    font-size: 30px;
+    font-weight: 700;
+}
+.word{
+    text-align: center;
+    width: 50px;
+    height: 30px;
+}
+.title2{
+    font-size:xx-small;
+}
+.textInput{
+    
+}

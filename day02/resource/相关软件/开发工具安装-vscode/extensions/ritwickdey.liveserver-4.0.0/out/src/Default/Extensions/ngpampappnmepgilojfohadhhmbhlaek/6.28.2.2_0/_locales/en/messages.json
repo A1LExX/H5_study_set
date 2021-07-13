@@ -1,0 +1,14 @@
+{
+   "cannot_find_links": {
+      "message": "Cannot find the links!\n\nIf this page does have links, please refresh this page, and try again.\nIf the problem persists, please contact IDM support team."
+   },
+   "menu_download_all": {
+      "message": "Download all links with IDM"
+   },
+   "menu_download_link": {
+      "message": "Download with IDM"
+   },
+   "menu_download_selected": {
+      "message": "Download selected links with IDM"
+   }
+}

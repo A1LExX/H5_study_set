@@ -1,0 +1,13 @@
+div{
+    width: 100px;
+    height: 100px;
+    margin-bottom: 40px;
+}
+
+div:first-child{
+    background:linear-gradient(pink,skyblue)
+}
+
+div:nth-child(2){
+    background: linear-gradient(to right , pink,skyblue);
+}

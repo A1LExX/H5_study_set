@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        .box1{
+            width: 800px;
+            height: 800px;
+            background: #000;
+        }
+        .box2{
+            width: 600px;
+            height: 600px;
+            background: rgba(110, 209, 110, 0.63);
+        }
+        .box3{
+            width: 400px;
+            height: 400px;
+            background: rgb(3, 163, 163);
+            /* position: relative; */
+            
+        }
+        .box4{
+            width: 200px;
+            height: 200px;
+            background: rgb(78, 78, 4);
+            /* position: relative; */
+        }
+        .box5{
+            width: 100px;
+            height:100px;
+            background: pink;
+            position: absolute;
+            right: 0;
+            bottom: 0;
+        }
+    
+    
+    </style>
+</head>
+<body>
+        <!-- 基于被设置非静态定位的最近上级元素进行定位。如果都没有，基于浏览器的第一屏进行定位。 -->
+    <div class="box1">
+        <div class="box2">
+            <div class="box3">
+                <div class="box4">
+                    <div class="box5"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+   
+</body>
+</html>

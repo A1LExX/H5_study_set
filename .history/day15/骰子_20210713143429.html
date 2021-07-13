@@ -1,0 +1,216 @@
+<!--
+@author [Alex Wei]
+@email [w2262196@outlook.com]
+@create date 2021-07-09 15:19:09
+@modify date 2021-07-13 14:34:29
+@desc [description]
+-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .main{
+            width: 220px;
+            height: 220px;
+            position: relative;
+            margin: 100px auto;
+            transform-style: preserve-3d;
+            transform: rotateX(20deg) rotateY(20deg) rotateZ(20deg);
+        }
+        .common {
+            width: 190px;
+            height: 190px;
+            padding: 10px;
+            margin: 5px;
+            border-radius: 15px;
+            border: 5px solid rgb(160, 155, 155);
+            /* box-shadow:2px 2px 20px black inset; */
+            box-shadow: 2px 2px 20px black;
+            display: flex;
+            margin-bottom: 10px;
+            float: left;
+            position: absolute;
+            background-color: blanchedalmond;
+        }
+
+        .point {
+            width: 50px;
+            height: 50px;
+            border-radius: 50% 50%;
+
+        }
+
+        .line {
+            display: flex;
+        }
+
+        .one {
+            justify-content: center;
+            align-items: center;
+            transform: translateZ(-220px);
+        }
+
+        .one>div {
+            background: red;
+            box-shadow: 2px 2px 10px #cc8888;
+        }
+
+        .two {
+            justify-content: space-evenly;
+            flex-direction: column;
+            align-items: center;
+            transform-origin: left;
+            transform: rotateY(90deg);
+        }
+
+        .two>div {
+            background: green;
+            box-shadow: 2px 2px 10px #60d848;
+        }
+
+        .three {
+            justify-content: space-evenly;
+            transform-origin: right;
+            transform: rotateY(-90deg);
+        }
+
+        .three>div {
+            background: orange;
+            box-shadow: 2px 2px 10px #b4752d;
+        }
+
+        .three>div:nth-child(2) {
+            align-self: center;
+        }
+
+        .three>div:nth-child(3) {
+            align-self: flex-end;
+        }
+
+        .four {
+            justify-content: space-around;
+            flex-direction: column;
+            transform-origin: top ;
+            transform: rotateX(-90deg);
+        }
+
+        .four>div>div {
+            background: cornflowerblue;
+            box-shadow: 2px 2px 10px #2972b6;
+        }
+
+        .line1 {
+            /* flex-direction: column; */
+            justify-content: space-evenly;
+        }
+
+        .line2 {
+            /* flex-direction: column; */
+            justify-content: space-evenly;
+        }
+
+        .five {
+            justify-content: space-around;
+            flex-direction: column;
+            transform-origin: bottom;
+            transform: rotateX(90deg);
+        }
+
+        .five>div>div {
+            background: darkorchid;
+            box-shadow: 2px 2px 10px #ae60c2;
+        }
+
+        .line3 {
+            justify-content: space-evenly;
+        }
+
+        .line4 {
+            justify-content: center;
+        }
+
+        .line5 {
+            justify-content: space-evenly;
+        }
+
+        .six {
+            justify-content: space-around;
+            flex-direction: column;
+        }
+
+        .six>div>div {
+            background: fuchsia;
+            box-shadow: 2px 2px 10px #c453be;
+        }
+
+        .line6 ,.line7, .line8 {
+            justify-content: space-around;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="main">
+        <div class="one common">
+            <div class="point"></div>
+        </div>
+        <div class="two common">
+            <div class="point"></div>
+            <div class="point"></div>
+        </div>
+        <div class="three common">
+            <div class="point"></div>
+            <div class="point"></div>
+            <div class="point"></div>
+        </div>
+        <div class="four common">
+            <div class="line1 line">
+                <div class="point"></div>
+                <div class="point"></div>
+            </div>
+            <div class="line2 line">
+                <div class="point"></div>
+                <div class="point"></div>
+            </div>
+    
+    
+        </div>
+        <div class="five common">
+            <div class="line3 line">
+                <div class="point"></div>
+                <div class="point"></div>
+            </div>
+            <div class="line4 line">
+                <div class="point"></div>
+            </div>
+            <div class="line5 line">
+                <div class="point"></div>
+                <div class="point"></div>
+            </div>
+        </div>
+        <div class="six common">
+            <div class="line6 line">
+                <div class="point"></div>
+                <div class="point"></div>
+            </div>
+            <div class="line7 line">
+                <div class="point"></div>
+                <div class="point"></div>
+            </div>
+            <div class="line8 line">
+                <div class="point"></div>
+                <div class="point"></div>
+            </div>
+    
+    
+        </div>
+    </div>
+    
+</body>
+
+</html>

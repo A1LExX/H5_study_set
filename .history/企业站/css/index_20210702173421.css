@@ -1,0 +1,117 @@
+/* 版心 */
+.container{
+    min-width: 962px;
+    margin: 0 auto;
+}
+
+/* 消除浮动的影响 */
+.clearfix::after{
+    content: '';
+    display: block;
+    height: 0;
+    clear: both;
+}
+
+html,body{
+    width: 100%;
+}
+
+/* 测试类 */
+.test{
+    border: 1px solid red;
+}
+
+/* logo和搜索 */
+#header{
+    height: 100px;
+    width: 962px;
+}
+
+#header .logo{
+    float: left;
+    width: 282px;
+    height: 35px;
+    margin-top: 34px;
+}
+
+#header .logo img{
+    width: 100%;
+    height: 100%;
+}
+
+#header .search{
+    float: right;
+    width: 227px;
+    height: 27px;
+    margin-top: 37px;
+    border: 1px solid #e5e5e5;
+}
+
+#header .search input{
+    width: 200px;
+    height: 27px;
+    background-color: #f1f1f1;
+    vertical-align:middle;
+}
+
+#header button{
+    width: 27px;
+    height: 27px;
+    vertical-align:middle;
+    background-image: url(../images/serch.jpg);
+    background-repeat: no-repeat;
+    background-size: 27px 27px;   
+}
+/* 导航 */
+#nav{
+    width: 100%;
+    background-color: #323232;
+}
+
+#nav .navList{
+    width: 962px;
+    /* height: 58px; */
+    /* float: left; */
+}
+
+#nav .navList li{
+    width: 119px;
+    height: 58px;
+    float: left;
+    line-height: 58px;
+    color: #f2f2f2;
+    text-align: center;
+}
+
+.navList div{
+    float: left;
+    width: 1px;
+    height: 58px;
+    background-color: #494949;
+}
+
+/* 轮播图 */
+#banner{
+    width: 100%;
+    height: 464px;
+}
+
+#banner img{
+    width: 100%;
+    height: 100%;
+}
+
+/* 新闻和资讯 */
+#new{
+    width: 962px;
+}
+
+#new .news{
+    width: 468px;
+    height: 240px;
+}
+
+#new .company{
+    width: 247px;
+    height: 240;
+}

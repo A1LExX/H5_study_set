@@ -1,0 +1,56 @@
+/**
+ * @author [Alex Wei]
+ * @email [w2262196@outlook.com]
+ * @create date 2021-07-08 19:18:05
+ * @modify date 2021-07-08 20:18:58
+ * @desc [description]
+ */
+*{
+    padding: 0;
+    margin: 0;
+}
+
+div{
+    position: relative;
+    width: 1920px;
+    height: 700px;
+    overflow: hidden;
+}
+
+.backGround{
+    width: 100%;
+    height: 300px;
+    background-image: url(../images/tree.png);
+    background-repeat: no-repeat;
+    background-size: 300px 300px;
+    bottom: 0;
+    left: 35%;
+    position: fixed;
+}
+
+.person{
+    width: 85px;
+    height: 85px;
+    background-image: url(../images/xr.png);
+    background-repeat:  no-repeat;
+    background-size: 85px 85px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    animation: move 4s linear;
+}
+
+@keyframes move{
+    0%{
+        left: 0;
+    }
+    40%{
+        left: 500px;
+        /* animation-play-state: paused; */
+        /* animation-delay: 2s; */
+        animation-duration: 3s;
+    }
+    100%{
+        left: 100%;
+    }
+}

@@ -1,0 +1,269 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body,html{
+    width: 100%;
+    height: 100%;
+}
+
+/* 强制换行 */
+.fontColorTiltle{
+    font-size: 0.05rem;
+    color: white;
+}
+
+.b{
+    text-align-last: justify;
+    text-align: justify;
+    display: block;
+}
+
+/* 白色 */
+.white{
+    color: white;
+    font-size: 0.35rem;
+    margin-right: 0.1rem;
+}
+
+/* 外部盒子 */
+#outside{
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+}
+
+/* 弹性整体布局 */
+#top{
+    height: 0.5rem;
+    background-color: #549fe6;
+    display: flex;
+    justify-content: space-between;
+}
+
+.title{
+    margin-left: 0.4rem;
+    align-self: center;
+}
+
+.message{
+    align-self: center;
+    /* flex: 1; */
+    /* align-content: flex-end; */
+}
+
+#mid{
+    flex: 1;
+    overflow: auto;
+}
+
+#mid .banner{
+    width: 100%;
+    height: 1.5rem;
+}
+
+#mid .banner img{
+    width: 100%;
+    height: 100%;
+}
+
+#mid .tips{
+    height: 0.3rem;
+    background-color: #d3d3d3;
+    line-height: 0.3rem;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.fontH{
+    font-size: 0.14rem;
+}
+
+.tipsLeft{
+    width: 25%;
+    text-align: left;
+}
+
+.tipsRight{
+    width: 75%;
+    display: inline-flex;
+    /* display: flex; */
+    justify-content: space-around;
+    text-align: center;
+    color: rgb(133, 133, 123);
+    font-size: 0.12rem;
+}
+.tipsRight div{
+    flex: 1;
+}
+
+#mid .tips .icon-lingdang{
+    color: rgb(212, 161, 18);
+}
+
+.nav{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background-color: rgb(179, 174, 174);
+}
+
+.line{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.line div{
+    margin-right: 0.01rem;
+    margin-bottom: 0.01rem;
+    background-color: white;
+    flex: 1;
+    padding: 0.05rem;
+    text-align: center;
+}
+
+.line div:hover{
+    background-color: rosybrown;
+}
+
+.icon{
+    font-size: 0.4rem;
+    text-align: center;
+}
+
+.line div:last-child{
+    margin-right: 0px;
+}
+
+.line:last-child div{
+    margin-bottom: 0.05rem;
+}
+
+.navFont{
+    display: block;
+}
+
+.icon-zhengfu-01{
+    color: tomato;
+}
+
+.icon-zhinanzhen{
+    color: rgb(255, 145, 71);
+}
+
+.icon-fangxiangpan1 ,.icon-gongjiaoche ,.icon-shuxie{
+    color:tomato;
+}
+
+.icon-shuxie, .icon-kaoshi ,.icon-sousuo ,.icon-jiaofei{
+    color: rgb(28, 160, 212);
+}
+
+.icon-diannao ,.icon-qiche ,.icon-kefu{
+    color: rgb(76, 189, 142);
+}
+
+.tipsDown{
+    display: flex;
+    justify-content: space-between;
+    height: 0.3rem;
+    line-height: 0.3rem;
+    border-bottom: 0.01rem solid rgb(179, 174, 174) ;
+}
+
+.icon-tongzhi{
+    color: rgb(28, 160, 212);
+}
+
+.tipsDownLeft{
+    margin-left: 0.1rem;
+}
+
+.tipsDownRight{
+    margin-right: 0.1rem;
+    color: slategray;
+}
+
+.news{
+    display: flex;
+    flex-direction: column;    
+}
+
+.lineNews{
+    display: flex;
+    padding: 0.05rem;
+    border-bottom: 1px solid rgb(179, 174, 174);
+    height: 1rem;
+    justify-content: space-between;
+}
+
+.news .lineNews:last-child{
+    border-bottom: 0rem;
+}
+
+.newsImg{
+    height: 1rem;
+    width: 1.5rem;
+}
+.newsImg img{
+    width: 100%;
+    height: 100%;
+}
+
+.newsWord{
+    flex: 75%;
+    padding: 0.1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.newsTitle{
+    font-size: 16px;
+}
+
+.tags{
+    display: flex;
+    justify-content: space-between;
+}
+
+.tags div:first-child{
+    width: 0.9rem;
+    height: 0.2rem;
+    border-radius: 0.05rem;
+    border: 0.01rem solid #d4a744;
+    color: #d4a744;
+    line-height: 0.2rem;
+    text-align: center;
+}
+
+#footer{
+    height: 0.55rem;
+    background-color: rgb(236, 231, 229);
+    display: flex;
+    justify-content: space-between;
+}
+
+.bi:first-child{
+    margin-left: 0.3rem;
+}
+
+.bi:last-child{
+    margin-right: 0.3rem;
+}
+
+.c1{
+    color: rgb(95, 99, 99);
+    text-align: center;
+    font-size: 0.3rem;
+}
+
+.bi{
+    color: rgb(95, 99, 99);
+    text-align: center;
+}
+
+.bi span:last-child{
+    display: block;
+}

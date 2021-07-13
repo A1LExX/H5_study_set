@@ -1,0 +1,46 @@
+/**
+ * @author [Alex Wei]
+ * @email [w2262196@outlook.com]
+ * @create date 2021-07-03 09:46:10
+ * @modify date 2021-07-03 09:58:41
+ * @desc [description]
+ */
+/* 版心 */
+.container{
+    min-width: 1010px;
+    margin: 0 auto;
+}
+
+/* 消除浮动的影响 */
+.clearfix::after{
+    content: '';
+    display: block;
+    height: 0;
+    clear: both;
+}
+
+html,body{
+    width: 100%;
+}
+
+/* 测试类 */
+.test{
+    border: 1px solid red;
+}
+
+/* 页眉 */
+#header{
+    background-color: #38414a;
+}
+
+#header .logo{
+    
+}
+
+.logo,.downList{
+    float: left;
+}
+
+.search{
+    float: right;
+}

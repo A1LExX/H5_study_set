@@ -1,0 +1,113 @@
+/**
+ * @author [Alex Wei]
+ * @email [w2262196@outlook.com]
+ * @create date 2021-07-05 19:07:47
+ * @modify date 2021-07-05 19:47:51
+ * @desc [description]
+ */
+
+a{
+    text-decoration: none;
+}
+
+.outside{
+    width: 450px;
+    margin: 0 auto;
+    border: 1px solid #c5c8c7;
+    padding: 20px;
+}
+
+fieldset{
+    border: 1px solid #c5c8c7;
+}
+
+label{
+    font-size: 11px;
+    color: #507986;
+}
+
+legend{
+    width: 92px;
+    height: 20px;
+    color: #507986;
+    border: 1px solid #c5c8c7;
+    line-height: 20px;
+}
+
+.topTitle , .bottom{
+    font-weight: 700px;
+    /* font-size: 13px; */
+    margin-bottom: 16px;
+}
+
+.bottom{
+    margin-top: 16px;
+}
+
+.rem{
+    text-decoration: black;
+    font-size: 11px;
+    color: black;
+}
+
+.inputRem{
+    background: #afe2ee;
+    margin-left: 57px;
+}
+
+.btnLogin{
+    background: #afe2ee;
+    border: 1px solid #507986;
+}
+
+.tipsLabel{
+    display: inline-block;
+    width: 54px;
+    text-align: right;
+    margin-left: 55px;
+}
+
+.tipsLabel1{
+    display: inline-block;
+    width: 74px;
+    text-align: right;
+    margin-left: 55px;
+}
+
+.mid{
+    height: 8px;
+}
+
+.linkOne{
+    font-size: 11px;
+    color: #507986;
+}
+
+.type1,.type2,.type3{
+    border: 1px solid #c5c8c7;
+}
+
+.type2{
+    width: 130px;
+}
+
+.type3{
+    width: 112px;
+    border: 1px solid #507986;
+}
+
+.mid3{
+    height: 8px;
+}
+
+.btnLogin{
+    background: #afe2ee;
+}
+
+.btnDouble button{
+    background: #afe2ee;
+}
+
+.btnDouble{
+    margin: 0 auto;
+}

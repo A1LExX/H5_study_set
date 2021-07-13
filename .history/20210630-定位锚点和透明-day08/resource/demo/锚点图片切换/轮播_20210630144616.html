@@ -1,0 +1,70 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>无标题文档</title>
+    <style type="text/css">
+        .box {
+            width: 500px;
+            height: 375px;
+            border: 1px solid #333;
+            position: relative;
+        }
+
+        ul,
+        li {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        .number {
+            width: 140px;
+            height: 30px;
+            position: absolute;
+            right: 10px;
+            bottom: 10px;
+        }
+
+        li a {
+            display: block;
+            width: 30px;
+            height: 30px;
+            text-align: center;
+            line-height: 30px;
+            background: #000;
+            opacity: .5;
+            filter: alpha(opacity=50);
+            float: left;
+            margin: 0 2px;
+            color: #fff;
+            text-decoration: none;
+        }
+
+        li a:hover {
+            opacity: .9;
+            filter: alpha(opacity=90);
+        }
+
+        .pic {
+            width: 500px;
+            height: 375px;
+            overflow: hidden;
+        }
+    </style>
+</head>
+
+<body>
+    <ul class="box">
+        <li class="number"><a href="#pic1">1</a><a href="#pic2">2</a><a href="#pic3">3</a><a href="#pic4">4</a></li>
+        <li class="pic">
+            <img id="pic1" src="img04.jpg" />
+            <img id="pic2" src="img05.jpg" />
+            <img id="pic3" src="img06.jpg" />
+            <img id="pic4" src="img07.jpg" />
+        </li>
+    </ul>
+</body>
+
+</html>

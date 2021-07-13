@@ -1,0 +1,18 @@
+.mid{
+    width: 300px;
+    height: 100px;
+    margin: 0 auto;
+}
+
+.left{
+    width: 150px;
+    height: 100px;
+    float: left;
+    background-image: url(../images/logo.png);
+}
+
+.right{
+    width: 150px;
+    height: 100px;
+    float: left;
+}

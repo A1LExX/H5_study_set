@@ -1,0 +1,60 @@
+/**
+ * @author [Alex Wei]
+ * @email [w2262196@outlook.com]
+ * @create date 2021-07-07 17:26:55
+ * @modify date 2021-07-07 18:01:24
+ * @desc [description]
+ */
+*{
+     margin: 0;
+     padding: 0;
+}
+
+/* .clearfix::after{
+    content: "";
+    height: 0;
+    clear: both;
+    display: block;
+} */
+
+.container{
+    min-width: 1200px;
+    margin: 0 auto;
+}
+
+#header .headerMid{
+    width: 1200px;
+    height: 33px;
+}
+
+#nav .navMid{
+    width: 1200px;
+    height: 100px;
+}
+
+#header .headerMid ul{
+    float: right;
+}
+
+.headerMid li{
+    float: left;
+    list-style-type: none;
+    color: #999;
+    line-height: 33px;
+    text-align: center;
+    /* width: 100px; */
+}
+
+.icon-shouye,.icon-shangchang{
+    color: red;
+}
+
+.headerMid ul div{
+    /* width: 1px; */
+    /* height: 13px; */
+    /* background-color: #999; */
+    float: left;
+    line-height: 33px;
+    margin: 0 20px;
+    
+}

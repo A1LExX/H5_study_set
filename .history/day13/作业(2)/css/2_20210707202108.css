@@ -1,0 +1,43 @@
+/**
+ * @author [Alex Wei]
+ * @email [w2262196@outlook.com]
+ * @create date 2021-07-07 19:55:43
+ * @modify date 2021-07-07 20:21:08
+ * @desc [description]
+ */
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.mid{
+    width: 230px;
+    height: 322px;
+    margin: 0 auto;
+    background-image: url(../images/spriteBg.png);
+    background-repeat: no-repeat;
+    background-position: -460px 0;
+    /* padding-left: ; */
+    overflow: hidden;
+}
+
+.mid div:first-child{
+    margin: 0 auto;
+    width: 100px;
+    height: 35px;
+    border-radius: 20px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    background: red;
+    color: white;
+    font-weight: 700;
+    line-height: 35px;
+    text-align: center;
+}
+
+.mid div:last-child{
+    width: 200px;
+    background: pink;
+}
+
+

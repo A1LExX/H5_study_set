@@ -1,0 +1,265 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body,html{
+    width: 100%;
+    height: 100%;
+}
+
+/* 强制换行 */
+.fontColorTiltle{
+    font-size: 5px;
+    color: white;
+}
+
+.b{
+    text-align-last: justify;
+    text-align: justify;
+    display: block;
+}
+
+/* 白色 */
+.white{
+    color: white;
+    font-size: 35px;
+    margin-right: 10px;
+}
+
+/* 外部盒子 */
+#outside{
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+}
+
+/* 弹性整体布局 */
+#top{
+    height: 50px;
+    background-color: #549fe6;
+    display: flex;
+    justify-content: space-between;
+}
+
+.title{
+    margin-left: 40px;
+    align-self: center;
+}
+
+.message{
+    align-self: center;
+    /* flex: 1; */
+    /* align-content: flex-end; */
+}
+
+#mid{
+    flex: 1;
+    overflow: auto;
+}
+
+#mid .banner{
+    width: 100%;
+    height: 150px;
+}
+
+#mid .banner img{
+    width: 100%;
+    height: 100%;
+}
+
+#mid .tips{
+    height: 30px;
+    background-color: #d3d3d3;
+    line-height: 30px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.fontH{
+    font-size: 14px;
+}
+
+.tipsLeft{
+    width: 25%;
+    text-align: left;
+}
+
+.tipsRight{
+    width: 75%;
+    display: inline-flex;
+    /* display: flex; */
+    justify-content: space-around;
+    text-align: center;
+    color: rgb(133, 133, 123);
+    font-size: 12px;
+}
+.tipsRight div{
+    flex: 1;
+}
+
+#mid .tips .icon-lingdang{
+    color: rgb(212, 161, 18);
+}
+
+.nav{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background-color: rgb(179, 174, 174);
+}
+
+.line{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.line div{
+    margin-right: 1px;
+    margin-bottom: 1px;
+    background-color: white;
+    flex: 1;
+    padding: 5px;
+    text-align: center;
+}
+
+.line div:hover{
+    background-color: rosybrown;
+}
+
+.icon{
+    font-size: 40px;
+    text-align: center;
+}
+
+.line div:last-child{
+    margin-right: 0px;
+}
+
+.line:last-child div{
+    margin-bottom: 5px;
+}
+
+.navFont{
+    display: block;
+}
+
+.icon-zhengfu-01{
+    color: tomato;
+}
+
+.icon-zhinanzhen{
+    color: rgb(255, 145, 71);
+}
+
+.icon-fangxiangpan1 ,.icon-gongjiaoche ,.icon-shuxie{
+    color:tomato;
+}
+
+.icon-shuxie, .icon-kaoshi ,.icon-sousuo ,.icon-jiaofei{
+    color: rgb(28, 160, 212);
+}
+
+.icon-diannao ,.icon-qiche ,.icon-kefu{
+    color: rgb(76, 189, 142);
+}
+
+.tipsDown{
+    display: flex;
+    justify-content: space-between;
+    height: 30px;
+    line-height: 30px;
+    border-bottom: 1px solid rgb(179, 174, 174) ;
+}
+
+.icon-tongzhi{
+    color: rgb(28, 160, 212);
+}
+
+.tipsDownLeft{
+    margin-left: 10px;
+}
+
+.tipsDownRight{
+    margin-right: 10px;
+    color: slategray;
+}
+
+.news{
+    display: flex;
+    flex-direction: column;    
+}
+
+.lineNews{
+    display: flex;
+    padding: 5px;
+    border-bottom: 1px solid rgb(179, 174, 174);
+    height: 100px;
+    justify-content: space-between;
+}
+
+.news .lineNews:last-child{
+    border-bottom: 0px;
+}
+
+.newsImg{
+    height: 100px;
+    width: 150px;
+}
+.newsImg img{
+    width: 100%;
+    height: 100%;
+}
+
+.newsWord{
+    flex: 75%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.tags{
+    display: flex;
+    justify-content: space-between;
+}
+
+.tags div:first-child{
+    width: 90px;
+    height: 20px;
+    border-radius: 5px;
+    border: 1px solid #d4a744;
+    color: #d4a744;
+    line-height: 20px;
+    text-align: center;
+}
+
+#footer{
+    height: 55px;
+    background-color: rgb(236, 231, 229);
+    display: flex;
+    justify-content: space-between;
+}
+
+.bi:first-child{
+    margin-left: 30px;
+}
+
+.bi:last-child{
+    margin-right: 30px;
+}
+
+.c1{
+    color: rgb(95, 99, 99);
+    text-align: center;
+    font-size: 30px;
+}
+
+.bi{
+    color: rgb(95, 99, 99);
+    text-align: center;
+}
+
+.bi span:last-child{
+    display: block;
+}

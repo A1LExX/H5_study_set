@@ -1,0 +1,174 @@
+/**
+ * @author [Alex Wei]
+ * @email [w2262196@outlook.com]
+ * @create date 2021-06-24 17:35:50
+ * @modify date 2021-06-26 10:17:12
+ * @desc [description]
+ */
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.header {
+    width: 1592px;
+    height: 60px;
+    background: #232323;
+}
+
+.daohang{
+    width: 990px;
+    height: 60px;
+    background: powderblue;
+    margin: 0 auto;
+}
+.logo{
+    width: 165px;
+    height: 60px;
+    float: left;
+}
+.nav{
+    width: 772px;
+    height: 18px;
+    float: right;
+    margin-top: 22px;
+    margin-bottom: 22px;
+}
+.ul1{
+    list-style-type: none;
+    float: left;
+    height: 16px;
+    color: white;
+}
+.ul1 div{
+    float: left;
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-left: solid 1px #000000;
+    border-right: solid 1px #444444;
+}
+
+.banner{
+    width: 1592px;
+    height: 422px;
+    background: #8cb2bb;
+}
+
+.con{
+    width: 1592px;
+    height: 348px;
+    background: #f5f5f5;
+}
+
+.out{
+    width: 1020px;
+    height: 239px;
+    margin: 0 auto;
+    padding-top: 34px;
+    padding-bottom: 25px;
+}
+
+.box1{
+    width: 255px;
+    height: 289px;
+    background: #a9d7f9;
+    float: left;
+}
+
+.box2{
+    width: 255px;
+    height: 289px;
+    background: #fdc07c;
+    float: left;
+}
+.box3{
+    width: 255px;
+    height: 289px;
+    background: #8adec9;
+    float: left;
+}
+
+.box4{
+    width: 255px;
+    height: 289px;
+    background: #dbaae1;
+    float: left;
+}
+
+.out2{
+    width: 1592px;
+    height: 226px;
+    padding-top: 41px;
+    padding-bottom: 41px;
+    background: #ffffff;
+}
+
+.con2{
+    width: 893px;
+    height: 226px;
+    /* padding-top: 41px;
+    padding-bottom: 42px; */
+    margin: 0 auto;
+}
+
+.box5{
+    width: 300px;
+    height: 226px;
+    background: #dfb092;
+    float: left;
+}
+
+.box6{
+    width: 354px;
+    height: 226px;
+    background: #ceffff;
+    float: left;
+}
+.box7{
+    width: 239px;
+    height: 226px;
+    background: #fd8200;
+    float: left;
+}
+.con3{
+    width: 1592px;
+    height: 212px;
+    background: #222222;
+}
+
+.out3{
+    width: 1036px;
+    height: 212px;
+    margin: 0 auto;
+}
+
+.box8{
+    width: 506px;
+    height: 212px;
+    float: left;
+    background: lightcoral;
+}
+.box9{
+    width: 325px;
+    height: 212px;
+    float: left;
+    background: lightseagreen;
+}
+.box10{
+    width: 205px;
+    height: 212px;
+    float: left;
+    background: mediumblue;
+}
+.footer{
+    width: 1592px;
+    height: 45px;
+    background: #101010;
+}
+.box11{
+    width: 656px;
+    height: 45px;
+    background: mediumvioletred;
+    margin: 0 auto;
+}

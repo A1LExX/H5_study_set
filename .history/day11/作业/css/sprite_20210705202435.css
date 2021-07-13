@@ -1,0 +1,25 @@
+.mid{
+    width: 300px;
+    height: 100px;
+    margin: 0 auto;
+}
+
+.left{
+    width: 150px;
+    height: 100px;
+    float: left;
+    background-image: url(../images/logo.png);
+    /* background-repeat: no-repeat; */
+    background-position: 813px 300px;
+    background-color: blanchedalmond;
+}
+
+.right{
+    width: 150px;
+    height: 100px;
+    float: left;
+    background-image: url(../images/logo.png);
+    /* background-repeat: no-repeat; */
+    background-position: 275px 224px;
+    background-color: blanchedalmond;
+}

@@ -1,0 +1,30 @@
+/**
+ * @author [Alex Wei]
+ * @email [w2262196@outlook.com]
+ * @create date 2021-07-05 19:07:47
+ * @modify date 2021-07-05 19:17:17
+ * @desc [description]
+ */
+.outside{
+    width: 450px;
+    margin: 0 auto;
+    border: 1px solid #c5c8c7;
+    padding: 20px;
+}
+
+fieldset{
+    border: 1px solid #c5c8c7;
+}
+
+label{
+    font-size: 11px;
+    color: #507986;
+}
+
+legend{
+    width: 92px;
+    height: 20px;
+    color: #507986;
+    border: 1px solid #c5c8c7;
+    line-height: 20px;
+}

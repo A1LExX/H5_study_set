@@ -1,0 +1,51 @@
+/**
+ * @author [Alex Wei]
+ * @email [w2262196@outlook.com]
+ * @create date 2021-06-24 13:00:50
+ * @modify date 2021-06-24 20:17:30
+ * @desc [description]
+ */
+*{
+    padding: 0;
+    margin: 0;
+}
+.header{
+    width: 1300px;
+    height: 100px;
+}
+.insideHeader{
+    width: 1102px;
+    height: 100px;
+    background: #f29004;
+    overflow: hidden;
+    margin: 0 auto;
+}
+.leftBox{
+    width: 205px;
+    height: 54px;
+    background: #36b559;
+    float: left;
+    margin-top: 23px;
+}
+.rightBox{
+    width: 297px;
+    height: 52px;
+    background: #3754b3;
+    float: right;
+    margin-top: 25px;
+}
+.con1{
+    width: 1300px;
+    height: 60px;
+    background: #2f2f2f;
+}
+.out1{
+    width: 1102px;
+    height: 60px;
+    background: #f2fb2b;
+    margin: 0 auto;
+}
+.con2{
+    width: 1300px;
+    height: 430px;
+}

@@ -1,0 +1,20 @@
+environment:
+  ELECTRON_NO_ATTACH_CONSOLE: 1
+
+branches:
+    only:
+      - master
+
+install:
+  - ps: Install-Product node 7.9.0 x64
+
+platform:
+  - x86
+
+build_script:
+  - npm install
+  - npm run vscode:prepublish
+
+test_script:
+  - npm run lint
+  - npm test

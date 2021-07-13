@@ -1,0 +1,70 @@
+/**
+ * @author [Alex Wei]
+ * @email [w2262196@outlook.com]
+ * @create date 2021-06-24 17:35:50
+ * @modify date 2021-06-24 18:28:38
+ * @desc [description]
+ */
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.header {
+    width: 1592px;
+    height: 60px;
+    background: #232323;
+}
+
+.daohang{
+    width: 990px;
+    height: 60px;
+    background: powderblue;
+    margin: 0 auto;
+}
+
+.banner{
+    width: 1592px;
+    height: 422px;
+    background: #8cb2bb;
+}
+
+.con{
+    width: 1592px;
+    height: 348px;
+    background: #f5f5f5;
+}
+
+.out{
+    width: 1020px;
+    height: 239px;
+    margin: 0 auto;
+    padding-top: 59px;
+}
+
+.box1{
+    width: 255px;
+    height: 289px;
+    background: #a9d7f9;
+    float: left;
+}
+
+.box2{
+    width: 255px;
+    height: 289px;
+    background: #fdc07c;
+    float: left;
+}
+.box3{
+    width: 255px;
+    height: 289px;
+    background: #8adec9;
+    float: left;
+}
+
+.box4{
+    width: 255px;
+    height: 289px;
+    background: #dbaae1;
+    float: left;
+}

@@ -1,0 +1,12 @@
+/**
+ * @author [Alex Wei]
+ * @email [w2262196@outlook.com]
+ * @create date 2021-06-24 15:57:19
+ * @modify date 2021-06-24 15:59:07
+ * @desc [description]
+ */
+.box{
+    width: 300px;
+    height: 300px;
+    border-top: 2px solid orange;
+}

@@ -1,0 +1,13 @@
+@charset "utf-8";
+/* CSS Document */
+*{margin:0; padding:0;}
+#logo,#nav,#banner,#news,#imgnews,#bottom,#footer{width:1000px;margin:0 auto;}
+/*-------------------nav--------------==========*/
+
+#logo{height:100px; background:#f00;width:800px;  }
+#nav{height:59px; background:#ff0;}
+#banner{ height:464px; background:#000;}
+#news{height:240px;  background:#9CC;}
+#imgnews{ height:306px; background:#093;}
+#bottom{ height:250px; background:#F00;}
+#footer{ height:80px; background:#C09;}

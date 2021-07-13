@@ -1,0 +1,24 @@
+/**
+ * @author [Alex Wei]
+ * @email [w2262196@outlook.com]
+ * @create date 2021-07-07 20:34:54
+ * @modify date 2021-07-07 20:45:20
+ * @desc [description]
+ */
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.clearfix::after{
+    content: '';
+    height: 0;
+    display: block;
+    clear: both;
+}
+
+#mid{
+    width: 1000px;
+    margin: 0 auto;
+}
+

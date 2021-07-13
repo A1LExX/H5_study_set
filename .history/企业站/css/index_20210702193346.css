@@ -1,0 +1,247 @@
+/* 版心 */
+.container{
+    min-width: 962px;
+    margin: 0 auto;
+}
+
+/* 消除浮动的影响 */
+.clearfix::after{
+    content: '';
+    display: block;
+    height: 0;
+    clear: both;
+}
+
+html,body{
+    width: 100%;
+}
+
+/* 测试类 */
+.test{
+    border: 1px solid red;
+}
+
+/* logo和搜索 */
+#header{
+    height: 100px;
+    width: 962px;
+}
+
+#header .logo{
+    float: left;
+    width: 282px;
+    height: 35px;
+    margin-top: 34px;
+}
+
+#header .logo img{
+    width: 100%;
+    height: 100%;
+}
+
+#header .search{
+    float: right;
+    width: 227px;
+    height: 27px;
+    margin-top: 37px;
+    border: 1px solid #e5e5e5;
+}
+
+#header .search input{
+    width: 200px;
+    height: 27px;
+    background-color: #f1f1f1;
+    vertical-align:middle;
+}
+
+#header button{
+    width: 27px;
+    height: 27px;
+    vertical-align:middle;
+    background-image: url(../images/serch.jpg);
+    background-repeat: no-repeat;
+    background-size: 27px 27px;   
+}
+/* 导航 */
+#nav{
+    width: 100%;
+    background-color: #323232;
+}
+
+#nav .navList{
+    width: 962px;
+    /* height: 58px; */
+    /* float: left; */
+}
+
+#nav .navList li{
+    width: 119px;
+    height: 58px;
+    float: left;
+    line-height: 58px;
+    color: #f2f2f2;
+    text-align: center;
+}
+
+.navList div{
+    float: left;
+    width: 1px;
+    height: 58px;
+    background-color: #494949;
+}
+
+/* 轮播图 */
+#banner{
+    width: 100%;
+    height: 464px;
+}
+
+#banner img{
+    width: 100%;
+    height: 100%;
+}
+
+/* 新闻和资讯 */
+#new{
+    width: 962px;
+}
+
+#new .news{
+    width: 442px;
+    height: 240px;
+    float: left;
+    line-height: 20px;
+    padding-right: 26px;
+}
+
+.newsDetailsLeft{
+    font-size: 13px;
+    /* display: block; */
+    width: 300px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    float: left;
+}
+.title{
+    font-size: 20px;
+    line-height: 68px;
+    margin-top: 10px;
+}
+
+.newsDetailsRight{
+    font-size: 13px;
+    display: block;
+    float: right;
+    color: #919191;
+}
+
+#new .company{
+    width: 175px;
+    height: 240px;
+    float: left;
+    padding-left: 26px;
+    padding-right: 26px;
+    background-color: #f1f1f1;
+}
+
+.companyLine1{
+    font-size: 14px;
+    line-height: 30px;
+}
+
+.companyLine2{
+    font-size: 12px;
+    line-height: 25px;
+}
+
+.companyLine3{
+    font-size: 12px;
+    margin-top: 20px;
+    color: #919191;
+    overflow : hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+
+.content{
+    font-size: 13px;
+    color: #919191;
+    overflow : hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+
+#new .recuit{
+    width: 200px;
+    height: 240px;
+    float: left;
+    padding-left: 26px;
+    background-color: #fbfbfb;
+    border-left: 1px solid #ffffff;
+}
+
+.imgBox{
+    width: 200px;
+    height: 127px;
+}
+
+.imgBoxLeft{
+    width: 60px;
+    height: 127px;
+    background-image: url(../images/more.jpeg);
+    background-repeat: no-repeat;
+    background-position: -4px 20px;
+    /* background-color: red; */
+    float: left;
+}
+.imgBoxRight{
+    width: 140px;
+    height: 127px;
+    background-image: url(../images/horse.jpeg);
+    background-repeat: no-repeat;
+    background-size: 152px 127px; 
+    float: left;
+}
+
+/* 市场项目 */
+#marketProject{
+    width: 962px;
+}
+
+#marketProject .title{
+    width: 962px;
+    height: 65px;
+    font-size: 20px;
+}
+
+#marketProject dl{
+    overflow : hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+}
+
+#marketProject dd{
+    /* line-height: 75px; */
+    width: 75px;
+}
+
+#marketProject .normalList{
+    width: 210.5px;
+    margin-right: 40px;
+    float: left;
+}
+
+.lastDl{
+    width: 210.5px;
+    /* margin-right: 40px; */
+    float: left;
+}
+
+

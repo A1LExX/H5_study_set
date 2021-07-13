@@ -1,0 +1,153 @@
+/**
+ * @author [Alex Wei]
+ * @email [w2262196@outlook.com]
+ * @create date 2021-06-29 17:07:00
+ * @modify date 2021-06-29 19:27:55
+ * @desc [description]
+ */
+
+*{
+    padding: 0;
+    margin: 0;
+} 
+
+/* 页眉 */
+#header{
+    width: 1345px;
+    height: 100px;
+
+    /* background-color: seagreen; */
+    overflow: hidden;
+}
+
+#header .headerMid{
+    width: 961px;
+    height: 36px;
+    margin: 0 auto;
+    margin-top: 32px;
+    /* background-color: pink; */
+}
+
+#header .logo{
+    width: 282px;
+    height: 36px;
+    float: left;
+    
+    /* background-color: purple; */
+    background-image: url(../images/logo.jpeg);
+    background-repeat: no-repeat;
+    background-size: 282px 35px;
+}
+
+#header .search{
+    width: 227px;
+    height: 27px;
+    float: right;
+    padding: 1px;
+    margin-top: 7px;
+    background-color: #e5e5e5;
+}
+
+#header input{
+    width: 200px;
+    height: 27px;
+    float: left;
+    border: 0 solid;
+    background-color: #f1f1f1;
+}
+
+#header button{
+    width: 27px;
+    height: 27px;
+    float: left;
+    border: 0 solid;
+}
+
+/* 导航 */
+#nav{
+    width: 1345px;
+    height: 58px;
+    background-color: #323232;
+}
+
+#nav .navMid{
+    width: 967px;
+    height: 58px;
+    margin: 0 auto;
+    /* background-color: springgreen; */
+}
+
+#nav ul{
+    list-style-type: none;
+    text-align: center;
+    line-height: 58px;
+}
+
+#nav li{
+    width: 120px;
+    height: 58px;
+    float: left;
+    color: #f2f2f2;
+}
+
+.navMid div{
+    width: 1px;
+    height: 58px;
+    float: left;
+    background-color: #494949;
+}
+/* 轮播图 */
+#banner{
+    width: 1345px;
+    height: 463px;
+}
+
+#banner img{
+    vertical-align: top;
+}
+
+/* 新闻和资讯 */
+#news{
+    width: 1345px;
+    height: 240px;
+}
+
+#news .newsMid{
+    width: 987px;
+    height: 240px;
+    margin: 0 auto;
+}
+
+#news .newsDetails{
+    width: 500px;
+    height: 240px;
+    float: left;
+    
+}
+
+#news .company{
+    width: 240px;
+    height: 240px;
+    float: left;
+    background-color: red;
+}
+
+#news .recruit{
+    width: 247px;
+    height: 240px;
+    float: left;
+    background: yellow;
+}
+
+/* 新闻模块标题 */
+.title{
+    font-size: 20px;
+    line-height: 68px;
+    margin-top: 10px;
+}
+
+.newsDetails .newsDetailsLeft{
+    width: 345px;
+    white-space: nowrap;
+    overflow: hidden;
+}

@@ -1,0 +1,22 @@
+/**
+ * @author [Alex Wei]
+ * @email [w2262196@outlook.com]
+ * @create date 2021-06-23 16:17:20
+ * @modify date 2021-06-23 16:21:14
+ * @desc [description]
+ */
+*{
+    font-size: 40px;
+}
+
+p{
+    color:red;
+}
+
+.word{
+    font-size: 80px;
+}
+
+.yanse{
+    color: yellow;
+}

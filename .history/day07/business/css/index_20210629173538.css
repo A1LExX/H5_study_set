@@ -1,0 +1,66 @@
+/**
+ * @author [Alex Wei]
+ * @email [w2262196@outlook.com]
+ * @create date 2021-06-29 17:07:00
+ * @modify date 2021-06-29 17:35:38
+ * @desc [description]
+ */
+
+*{
+    padding: 0;
+    margin: 0;
+} 
+
+/* 页眉 */
+#header{
+    width: 1345px;
+    height: 100px;
+
+    background-color: seagreen;
+    overflow: hidden;
+}
+
+#header .header_mid{
+    width: 961px;
+    height: 36px;
+    margin: 0 auto;
+    margin-top: 32px;
+    background-color: pink;
+}
+
+#header .logo{
+    width: 282px;
+    height: 36px;
+    float: left;
+    
+    background-color: purple;
+    background-image: url(../images/logo.jpeg);
+    background-repeat: no-repeat;
+    background-size: 282px 35px;
+}
+
+#header .search{
+    width: 227px;
+    height: 27px;
+    float: right;
+    padding: 1px;
+    margin-top: 7px;
+    background-color: #e5e5e5;
+}
+
+#header input{
+    width: 200px;
+    height: 27px;
+    float: left;
+    border: 0 solid;
+    background-color: #f1f1f1;
+}
+
+#header button{
+    width: 27px;
+    height: 27px;
+    float: left;
+    border: 0 solid;
+}
+
+

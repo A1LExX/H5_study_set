@@ -1,0 +1,38 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.clearfix::after{
+    content: '';
+    height: 0;
+    display: block;
+    clear: both;
+}
+
+.container{
+    min-width: 1200px;
+    margin: 0 auto;
+}
+
+header{
+    width: 100%;
+    background: #222222;
+}
+
+header section{
+    color: #5b6666;
+}
+
+.headerLeft{
+    float: left;
+}
+
+.headerRight{
+    float: right;
+}

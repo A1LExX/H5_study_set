@@ -1,0 +1,33 @@
+1.文本属性
+    1.大小
+        font-size:*px | *em | *rem;
+        px是像素，绝对大小
+        em是父元素的字体大小的倍数
+        rem是根元素的字体大小的倍数。[html]
+
+    2.颜色
+        color:颜色的英文 | #16进制值 | rgb(R,G,B) | rgba(R,G,B,透明度)
+
+    3.粗细
+        font-weight: 400 normal | 700 bold;
+        400或者normal代表正常粗细
+        700或者bold代表加粗
+
+    4.字体类型  【宋体、微软雅黑】
+        font-family:'类型1','类型2' ...;
+
+    5.字体样式   【是否倾斜】
+        font-style : normal | italic ;
+
+    6.行高:一行文字所占的高度 [文字本身大小+间隔] 
+        line-height:*px;
+        应用： 单行文字垂直居中
+              多行文字，调整行间距
+
+    7.文本缩进
+    8.文本水平对齐
+        text-align:left | center | right | justify;
+        justify是针对多行文字
+        
+    9.文本修饰线
+    

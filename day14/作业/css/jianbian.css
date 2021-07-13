@@ -1,0 +1,14 @@
+/**
+ * @author [Alex Wei]
+ * @email [w2262196@outlook.com]
+ * @create date 2021-07-08 19:18:54
+ * @modify date 2021-07-08 19:18:56
+ * @desc [description]
+ */
+div{
+    width: 1000px;
+    height: 20px;
+    margin: 20px auto;
+    border-radius: 20px;
+    background: linear-gradient(to right , green,rgb(155, 118, 87),rgb(240, 33, 33));
+}

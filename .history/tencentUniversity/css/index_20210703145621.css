@@ -1,0 +1,300 @@
+/**
+ * @author [Alex Wei]
+ * @email [w2262196@outlook.com]
+ * @create date 2021-07-03 09:46:10
+ * @modify date 2021-07-03 14:56:21
+ * @desc [description]
+ */
+/* 版心 */
+.container{
+    min-width: 1010px;
+    margin: 0 auto;
+}
+
+/* 消除浮动的影响 */
+.clearfix::after{
+    content: '';
+    display: block;
+    height: 0;
+    clear: both;
+}
+
+html,body{
+    width: 100%;
+}
+
+/* 测试类 */
+.test{
+    border: 1px solid red;
+}
+
+/* 页眉 */
+#header{
+    background-color: #38414a;
+    border-bottom: 2px solid #212a33;
+}
+
+#header .headerMid{
+    width: 1010px;
+}
+
+#header .logo{
+    margin-left: 22px;
+    height: 68px;
+}
+
+#header .logo img{
+    width: 100%;
+    height: 100%;
+}
+
+.logoBorder{
+    width: 1px;
+    height: 40px;
+    float: left;
+    margin-top: 19px;
+}
+
+#header .left{
+    background-color: #131d27;
+}
+
+#header .right{
+    background-color: #3f4750;
+    margin-right: 15px;
+}
+
+.logo,.downList{
+    float: left;
+}
+
+.downList .first{
+    color: #04b141;
+    font-size: 20px;
+}
+
+.downList .down{
+    color: #04b141;
+    font-size: 18px;
+    margin-top: 20px;
+    display: none;
+    z-index: 3;
+}
+
+.downList ul{
+    margin-top: 19px;
+    width: 85px;
+    height: 49px;
+    background: #38414a;
+}
+
+.downList:hover .down{
+    display: block;
+    z-index: 20;
+}
+
+.downList li{
+   width: 85px;
+   height: 30px; 
+   background-color: #38414a;
+}
+
+.search{
+    width: 428px;
+    height: 32px;
+    float: right;
+    margin-top: 22px;
+}
+
+.search input{
+    width: 378px;
+    height: 32px;
+    vertical-align: middle;
+}
+
+.search button{
+    width: 50px;
+    height: 32px;
+    background-color: #04b141;
+    background-image: url(../images/search_08.jpg);
+    background-repeat: no-repeat;
+    /* background-size: 50px 32px; */
+    background-position: center center;
+    vertical-align: middle;
+}
+
+/* 导航 */
+#nav{
+    background-color: #04b141;
+}
+
+#nav .navMid{
+    width: 975px;
+    height: 36px;
+    padding-left: 35px;
+}
+
+.navMid div{
+    float: left; 
+    width: 1px;
+    height: 20px;
+    margin-top: 7px;
+    background-color: #008a45;
+}
+
+.navMid li{
+    width: 109px;
+    height: 36px;
+    float: left;
+    text-align: center;
+    line-height: 36px;
+    color: #ffffff;
+}
+
+/* 轮播图 */
+#banner{
+    width: 100%;
+    height: 359px;
+    max-width: 1439px;
+}
+ 
+#banner img{
+    width: 100%;
+    height: 100%; 
+}
+
+/* tips */
+#tips{
+    width: 960px;
+    height: 36px;
+    line-height: 36px;
+    font-size: 12px;
+    color: #4c4c4c;
+    padding-left: 50px;
+    position: relative;
+}
+
+#tips img{
+    vertical-align: middle;
+}
+
+#tips .imgMid{
+    bottom: 0;
+    right: 50%;
+    position: absolute;
+}
+
+/* 分类 */
+#class{
+    width: 100%;
+    background-color: #f0f0f0;
+}
+
+#class .classMid{
+    width: 1004px;
+    height: 318px;
+    padding-left: 3px;
+    padding-right: 3px;
+}
+.classMid .classItem{
+    width: 223px;
+    height: 253px;
+    margin-left: 13px;
+    margin-right: 13px;
+    margin-top: 31px;
+    margin-bottom: 32px;
+    border-top: 2px solid #04b141;
+    border-left: 1px solid #dbdbdb;
+    border-right: 1px solid #dbdbdb;
+    border-bottom: 1px solid #dbdbdb;
+    float: left;
+    background-color: #ffffff;
+    text-align: center;
+}
+
+.classP1{
+    font-size: 22px;
+    font-weight: 700;
+    /* line-height: 40px; */
+    margin-top: 16px;
+    margin-bottom: 14px;
+}
+
+.classP2{
+    font-size: 16px;
+    margin-bottom: 14px;
+    color: #999999;
+}
+
+.classImg{
+    background-image: url(../images/go.png);
+    width: 73px;
+    height: 24px;
+    margin-left: 70px;
+    border: 1px solid #e3e3e3;
+}
+
+.classItem .classImgBig{
+    width: 150px;
+    height: 115px;
+    margin-top: 30px;
+    margin-left: 33px;
+}
+
+.classImgBig img{
+    width: 100%;
+    height: 100%;
+}
+
+/* 页脚 */
+#footer{
+    background-image: url(../images/footerBackground.jpg);
+    background-repeat: no-repeat;
+}
+
+#footer .footerMid{
+    height: 526px;
+    width: 1010px;
+}
+
+.manyLogo{
+    width: 570px;
+    height: 220px;
+    margin-left: 47px;
+    margin-right: 54px;
+    margin-top: 20px;
+    margin-bottom: 127px;
+    /* background-color: pink; */
+    float: left;
+}
+
+.manyBtn{
+    width: 334px;
+    height: 347px;
+    margin-top: 21px;
+    background-color: skyblue;
+    float: left;
+}
+
+.manyLogo p{
+    font-weight: 700;
+    color: #ffffff;
+    margin-bottom: 10px;
+}
+
+.manyLogo div span{
+    color: #ffffff;
+}
+
+.partner{
+    color: #7598aa;
+    margin-top: 40px;
+}
+
+.manyBtn p{
+    font-weight: 700;
+    color: #ffffff;
+    margin-bottom: 10px;
+}
+
+

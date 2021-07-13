@@ -1,0 +1,33 @@
+/**
+ * @author [Alex Wei]
+ * @email [w2262196@outlook.com]
+ * @create date 2021-07-08 19:18:05
+ * @modify date 2021-07-08 19:59:29
+ * @desc [description]
+ */
+*{
+    padding: 0;
+    margin: 0;
+}
+
+div{
+    position: relative;
+    width: 100%;
+    height: 1000px;
+}
+
+.backGround{
+    width: 200px;
+    height: 100px;
+    background-image: url(../images/tree.png);
+    background-repeat: no-repeat;
+    background-size:
+    bottom: 0;
+    left: 50%;
+    position: absolute;
+}
+
+.person{
+    background-image: url(../images/xr.png);
+    background-repeat:  no-repeat;
+}

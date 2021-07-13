@@ -1,0 +1,70 @@
+<!--
+@author [Alex Wei]
+@email [w2262196@outlook.com]
+@create date 2021-07-05 18:42:14
+@modify date 2021-07-05 19:19:03
+@desc [description]
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/formAd.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="outside">
+        <div class="topTitle">已注册用户登录</div>
+        <fieldset>
+            <legend>&nbsp;&nbsp;用户登陆</legend>
+            <form action="#login" method="get">
+                <label>用户名</label>
+                <input type="text" name="username">
+                <div class="mid"></div>
+                <label>密码</label>
+                <input type="password" name="password">
+                <div class="mid"></div>
+                <input type="radio" name="remmberMe"><a href="#">记住我</a>
+                <button type="submit">登陆</button>
+                <div class="mid2"></div>
+                <a href="#" class="linkOne">您忘记密码？</a>
+            </form>
+        </fieldset>
+        <div class="bottom">未注册创建账户</div>
+        <fieldset>
+            <legend>用户注册</legend>
+            <p>您的电子邮箱不会被公布出去，但是必须填写。在您注册前请认真阅读服务条款</p>
+            <form action="#register">
+                <label>用户名</label>
+                <input type="text" name="username">
+                <label>*(最多30个字符)</label>
+                <div class="mid3"></div>
+                <label>电子邮箱</label>
+                <input type="text" name="email">
+                <label>*</label>
+                <div class="mid3"></div>
+                <label>密码</label>
+                <input type="password" name="password">
+                <label>*(最多15个字符)</label>
+                <div class="mid3"></div>
+                <label>重复密码</label>
+                <input type="password" name="comfirmPassword">
+                <label>*</label>
+                <div class="mid3"></div>
+                <label for="comfirmRule">同意服务条款</label>
+                <input type="radio" id="comfirmRule" name="comfirmRule">
+                <a href="#" class="ruleLink">先看看条款？</a>
+                <label>*</label>
+                <div>
+                    <button type="submit">提交</button>
+                    <button type="reset">重置</button>
+                </div>
+            </form>
+            <div class="bottomTips1">*在提交您的注册信息时，我们认为您已经同意了我们的服务条款。</div>
+            <div class="bottomTips1">*这些条款可能在未经您同意的时候进行修稿。</div>
+        </fieldset>
+    </div>
+</body>
+</html>
