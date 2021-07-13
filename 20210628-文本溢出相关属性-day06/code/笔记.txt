@@ -1,0 +1,56 @@
+0.昨日回顾
+    1.文本相关的属性
+        文字大小
+            font-size
+        颜色
+            color
+        样式
+            font-style:normal | italic
+        粗细
+            font-weight:400 | 700 | normal | bold
+        文字类型
+            font-family: '1','2'
+        修饰线
+            text-decoration: underline | line-through | none;
+        行高
+            line-height:*px;
+            1.单行文本垂直居中
+            2.多行文本设置行间距
+
+        文本缩进
+            text-indent:*px | 2em ;
+
+        水平对齐
+            text-align: right | center | justify
+        
+    2.列表相关的属性
+        list-style:none;
+
+    3.背景相关的属性
+        background-color:颜色;
+        background-image:url(路径);
+        background-repeat:no-repeat;
+        background-position:x  y;
+
+        background:;
+
+        精灵图： 
+            1.实现一个指定大小的盒子
+            2.将精灵图设置为它的背景图
+            3.通过background-position属性，改变背景图的起始位置
+
+1.今日重点
+    1.单行文本溢出显示省略号
+        1.设置宽度
+            width:*px;
+        2.强制不换行
+            white-space:nowrap;
+        
+        3.溢出隐藏
+            overflow:hidden;
+            
+        4.文本溢出的标识为省略号
+            text-overflow:ellipsis;
+
+
+    

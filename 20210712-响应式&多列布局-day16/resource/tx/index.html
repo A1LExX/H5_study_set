@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="fonts/iconfont.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/index.css">
+    <script src="js/rem.js"></script>
+    <style>
+        header {
+            width: 100%;
+            height: 0.95rem;
+            background: #387ec2;
+            color: #fff;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        header div {
+            width: 5.6rem;
+            height: 0.56rem;
+            background: pink;
+            text-align: center;
+        }
+
+        header div img {
+            width: 1.8rem;
+            height: 0.56rem;
+        }
+
+        .banner {
+            width: 100%;
+            height: 3.16rem;
+        }
+
+        .banner img {
+            width: 100%;
+            height: 100%;
+        }
+
+        nav {
+            height: 0.64rem;
+            padding: 0.2rem;
+            background: #aaa;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        nav div:nth-child(3) {
+            width: 2.7rem;
+        }
+
+        .nav {
+            display: flex;
+            flex-wrap: wrap;
+            border-bottom: 0.2rem solid #ddd;
+        }
+
+        .nav>div {
+            width: 25%;
+            box-sizing: border-box;
+            height: 1.86rem;
+            border: 0.01rem solid red;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            font-size: 0.26rem;
+        }
+
+        .nav>div:nth-child(4n+1) {
+
+            border-left: 0rem solid red;
+        }
+
+        .nav>div:nth-child(4n) {
+            border-right: 0rem solid red;
+        }
+
+        .nav>div i {
+            font-size: 0.5rem;
+        }
+
+        /* 新闻资讯 */
+
+        .news .head {
+            display: flex;
+            height: 0.72rem;
+            border: 0.02rem solid #000;
+            justify-content: space-between;
+            align-items: center;
+            padding-left: 0.3rem;
+            padding-right: 0.22rem;
+        }
+
+        .news .content {
+            padding-left: 0.35rem;
+        }
+
+        .news .list {
+            height: 1.8rem;
+            padding: 0.2rem 0.2rem 0.2rem 0;
+            border-bottom: 0.01rem solid #000;
+            display: flex;
+        }
+
+        .news .list .left {
+            width: 1.9rem;
+            height: 1.4rem;
+            background: pink;
+            margin-right: 0.3rem;
+        }
+
+        .news .list .right {
+            flex: 1;
+            border: 0.01rem solid #000;
+        }
+
+        .news .list .right>div:nth-child(2) {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        body{
+            display: flex;
+            flex-direction: column;
+        }
+        footer{
+            height: 0.5rem;
+            background: skyblue;
+        }
+        .main{
+            flex: 1;
+            overflow: auto;
+        }
+        html,body{
+            width: 100%;
+            height: 100%;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div>
+
+            <img src="imgs/bg.png" alt="">
+        </div>
+        <span class="iconfont icon-jizhang"></span>
+    </header>
+    <div class="main">
+            <div class="banner">
+                    <img src="imgs/bg2.png" alt="">
+                </div>
+                <nav>
+                    <div>
+                        <i class="iconfont icon-huatong"></i>学院必看</div>
+                    <div>学院必看</div>
+                    <div>学院必看</div>
+                </nav>
+                <div class="nav">
+                    <div>
+                        <i class="iconfont icon-huatong"></i>
+                        <span>企业发展</span>
+                    </div>
+                    <div>
+                        <i class="iconfont icon-huatong"></i>
+                        <span>企业发展</span>
+                    </div>
+                    <div>
+                        <i class="iconfont icon-huatong"></i>
+                        <span>企业发展</span>
+                    </div>
+                    <div>
+                        <i class="iconfont icon-huatong"></i>
+                        <span>企业发展</span>
+                    </div>
+                    <div>
+                        <i class="iconfont icon-huatong"></i>
+                        <span>企业发展</span>
+                    </div>
+                    <div>
+                        <i class="iconfont icon-huatong"></i>
+                        <span>企业发展</span>
+                    </div>
+                    <div>
+                        <i class="iconfont icon-huatong"></i>
+                        <span>企业发展</span>
+                    </div>
+                    <div>
+                        <i class="iconfont icon-huatong"></i>
+                        <span>企业发展</span>
+                    </div>
+                    <div>
+                        <i class="iconfont icon-huatong"></i>
+                        <span>企业发展</span>
+                    </div>
+                    <div>
+                        <i class="iconfont icon-huatong"></i>
+                        <span>企业发展</span>
+                    </div>
+                    <div>
+                        <i class="iconfont icon-huatong"></i>
+                        <span>企业发展</span>
+                    </div>
+                    <div>
+                        <i class="iconfont icon-huatong"></i>
+                        <span>企业发展</span>
+                    </div>
+                </div>
+                <!-- 新闻资讯 -->
+                <div class="news">
+                    <div class="head">
+                        <div class="left">
+                            <i class="iconfont icon-huatong"></i>
+                            <span>新闻资讯</span>
+                        </div>
+                        <span>查看更多</span>
+                    </div>
+                    <div class="content">
+                        <div class="list">
+                            <div class="left">
+                                1
+                            </div>
+                            <div class="right">
+                                <div>hdsagafa付款都是发的还房贷是、三个国家风景 返回范德萨大商股份划分的</div>
+                                <div>
+                                    <div class="tag">热门新闻</div>
+                                    <div class="tag">14天前</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="list">
+                            <div class="left">
+                                1
+                            </div>
+                            <div class="right">
+                                <div>hdsagafa付款都是发的还房贷是、三个国家风景 返回范德萨大商股份划分的</div>
+                                <div>
+                                    <div class="tag">热门新闻</div>
+                                    <div class="tag">14天前</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="list">
+                            <div class="left">
+                                1
+                            </div>
+                            <div class="right">
+                                <div>hdsagafa付款都是发的还房贷是、三个国家风景 返回范德萨大商股份划分的</div>
+                                <div>
+                                    <div class="tag">热门新闻</div>
+                                    <div class="tag">14天前</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="list">
+                            <div class="left">
+                                1
+                            </div>
+                            <div class="right">
+                                <div>hdsagafa付款都是发的还房贷是、三个国家风景 返回范德萨大商股份划分的</div>
+                                <div>
+                                    <div class="tag">热门新闻</div>
+                                    <div class="tag">14天前</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="list">
+                            <div class="left">
+                                1
+                            </div>
+                            <div class="right">
+                                <div>hdsagafa付款都是发的还房贷是、三个国家风景 返回范德萨大商股份划分的</div>
+                                <div>
+                                    <div class="tag">热门新闻</div>
+                                    <div class="tag">14天前</div>
+                                </div>
+                            </div>
+                        </div>
+            
+                    </div>
+                </div>
+    </div>
+    <footer>
+        3
+    </footer>
+
+
+</body>
+
+</html>

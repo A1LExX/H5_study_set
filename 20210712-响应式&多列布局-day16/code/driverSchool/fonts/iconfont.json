@@ -1,0 +1,37 @@
+{
+  "id": "",
+  "name": "",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "22800180",
+      "name": "a-tupianyihuifu-15",
+      "font_class": "a-tupianyihuifu-15",
+      "unicode": "e603",
+      "unicode_decimal": 58883
+    },
+    {
+      "icon_id": "22800181",
+      "name": "a-tupianyihuifu-60",
+      "font_class": "a-tupianyihuifu-60",
+      "unicode": "e602",
+      "unicode_decimal": 58882
+    },
+    {
+      "icon_id": "22816699",
+      "name": "i",
+      "font_class": "i",
+      "unicode": "e605",
+      "unicode_decimal": 58885
+    },
+    {
+      "icon_id": "22816700",
+      "name": "552dc065f0478",
+      "font_class": "a-552dc065f0478",
+      "unicode": "e606",
+      "unicode_decimal": 58886
+    }
+  ]
+}

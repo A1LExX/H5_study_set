@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        .wrap{
+            width: 300px;
+        }
+        .wrap img{
+            width:100%;
+            vertical-align: top;
+        }
+        .wrap .cart{
+            /* display: block; */
+            width: 300px;
+            height: 40px;
+            background: pink;
+            display: none;
+        }
+        /* 鼠标悬停在wrap身上，给里面的cart设置样式 */
+      .wrap:hover .cart{
+          display: block;
+      }
+    
+    </style>
+</head>
+<body>
+    <div class="wrap">
+        <div><a href="#"><img src="images/1.webp" alt=""></a></div>
+        <a href="http://www.baidu.com" class="cart">加入购物车</a>
+    </div>
+</body>
+</html>

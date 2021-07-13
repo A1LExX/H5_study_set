@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+			<link rel="stylesheet" type="text/css" href="style.css"  />
+		<title>一起看动画</title>
+		<style type="text/css">
+			body{
+				background-color: #444;
+			}
+			
+			h2{
+				padding: 14px 0;
+				text-align: center;
+				font-size: 27px;
+				color: #ddd;
+				letter-spacing: 4px;
+				font-weight: normal;	
+			}
+			.player{
+				width: 800px;
+				margin: 0 auto;
+				outline: 1px solid rgba(255,255,255,.1);
+				outline-offset: 4px;
+			}
+			.player>.screen{
+				height: 400px;
+				background-color: #db604e;
+			}
+			.player>.btns{
+				height: 60px;
+				line-height: 60px;
+				background-color: #222; 
+				text-align: center;
+			}
+			.player>.btns>a{
+				position: relative;
+				top: -1px;
+				display: inline-block;
+				vertical-align: middle;
+				height: 40px;
+				line-height: 40px;
+				width: 40px;
+				color: #ddd;
+				border-radius: 50%;
+				margin: 0 24px;
+				cursor: pointer;
+			}
+			.player>.btns>a:hover{
+				background-color: #111;
+			}
+			
+			@keyframes walk{
+			 	0%{ background-image: url("ani_footage/1.jpg"); }
+			 	6%{ background-image: url("ani_footage/2.jpg"); }
+			 	12%{ background-image: url("ani_footage/3.jpg"); }
+			 	18%{ background-image: url("ani_footage/4.jpg"); }
+			 	24%{ background-image: url("ani_footage/5.jpg"); }
+			 	30%{ background-image: url("ani_footage/6.jpg"); }
+			 	36%{ background-image: url("ani_footage/7.jpg"); }
+			 	42%{ background-image: url("ani_footage/8.jpg"); }
+			 	48%{ background-image: url("ani_footage/9.jpg"); }
+			 	54%{ background-image: url("ani_footage/10.jpg"); }
+			 	60%{ background-image: url("ani_footage/11.jpg"); }
+			 	66%{ background-image: url("ani_footage/12.jpg"); }
+			 	72%{ background-image: url("ani_footage/13.jpg"); }
+			 	78%{ background-image: url("ani_footage/14.jpg"); }
+			 	84%{ background-image: url("ani_footage/15.jpg"); }
+			 	90%{ background-image: url("ani_footage/16.jpg"); }
+			 }
+			 @-moz-keyframes walk{
+			 	0%{ background-image: url("ani_footage/1.jpg"); }
+			 	6%{ background-image: url("ani_footage/2.jpg"); }
+			 	12%{ background-image: url("ani_footage/3.jpg"); }
+			 	18%{ background-image: url("ani_footage/4.jpg"); }
+			 	24%{ background-image: url("ani_footage/5.jpg"); }
+			 	30%{ background-image: url("ani_footage/6.jpg"); }
+			 	36%{ background-image: url("ani_footage/7.jpg"); }
+			 	42%{ background-image: url("ani_footage/8.jpg"); }
+			 	48%{ background-image: url("ani_footage/9.jpg"); }
+			 	54%{ background-image: url("ani_footage/10.jpg"); }
+			 	60%{ background-image: url("ani_footage/11.jpg"); }
+			 	66%{ background-image: url("ani_footage/12.jpg"); }
+			 	72%{ background-image: url("ani_footage/13.jpg"); }
+			 	78%{ background-image: url("ani_footage/14.jpg"); }
+			 	84%{ background-image: url("ani_footage/15.jpg"); }
+			 	90%{ background-image: url("ani_footage/16.jpg"); }
+			 }
+			 @-webkit-keyframes walk{
+			 	0%{ background-image: url("ani_footage/1.jpg"); }
+			 	6%{ background-image: url("ani_footage/2.jpg"); }
+			 	12%{ background-image: url("ani_footage/3.jpg"); }
+			 	18%{ background-image: url("ani_footage/4.jpg"); }
+			 	24%{ background-image: url("ani_footage/5.jpg"); }
+			 	30%{ background-image: url("ani_footage/6.jpg"); }
+			 	36%{ background-image: url("ani_footage/7.jpg"); }
+			 	42%{ background-image: url("ani_footage/8.jpg"); }
+			 	48%{ background-image: url("ani_footage/9.jpg"); }
+			 	54%{ background-image: url("ani_footage/10.jpg"); }
+			 	60%{ background-image: url("ani_footage/11.jpg"); }
+			 	66%{ background-image: url("ani_footage/12.jpg"); }
+			 	72%{ background-image: url("ani_footage/13.jpg"); }
+			 	78%{ background-image: url("ani_footage/14.jpg"); }
+			 	84%{ background-image: url("ani_footage/15.jpg"); }
+			 	90%{ background-image: url("ani_footage/16.jpg"); }
+			 }
+			 
+			 @keyframes go{
+			 	0%{
+			 		left: 70px;
+			 		transform: rotateY(0deg);
+			 		-moz-transform: rotateY(0deg);
+			 		-webkit-transform: rotateY(0deg);
+			 	}
+			 	50%{
+			 		left: 570px;
+			 		transform: rotateY(0deg);
+			 		-moz-transform: rotateY(0deg);
+			 		-webkit-transform: rotateY(0deg);
+			 	}
+			 	50.01%{/*转身*/
+			 		left: 570px;
+			 		transform: rotateY(180deg);
+			 		-moz-transform: rotateY(180deg);
+			 		-webkit-transform: rotateY(180deg);
+			 	}
+			 	100%{
+			 		left: 70px;
+			 		transform: rotateY(180deg);
+			 		-moz-transform: rotateY(180deg);
+			 		-webkit-transform: rotateY(180deg);
+			 	}
+			 }
+			 .cartoon{
+			 	position: relative;
+			 	top: 140px;
+			 	left: 70px;
+			 	display: block;
+			 	height: 255px;
+			 	width: 120px;
+			 	background: url("ani_footage/1.jpg") no-repeat;
+			 	background-size: contain;
+			 }
+			 .walk{
+			 	animation: walk 1s infinite, go 4s infinite linear;
+			 	-moz-animation: walk 1s infinite, go 4s infinite linear;
+			 	-webkit-animation: walk 1s infinite, go 4s infinite linear;
+			 }
+			 .cartoon:hover{
+			 	/*用于控制动画的暂停和播放*/
+			 	animation-play-state: running;
+			 	-moz-animation-play-state: running;
+			 	-webkit-animation-play-state: running;
+			 }
+		</style>
+	</head>
+	<body>
+		<h2>一起看动画</h2>
+		<div class="player">
+			<div class="screen">
+				<span id="Cartoon" class="cartoon"></span>
+			</div>
+			<div class="btns"><a id="Play" class="icon-play3"></a><a id="Pause" class="icon-pause2"></a><a id="Stop" class="icon-stop2"></a></div>
+		</div>
+		
+		<script>
+			var cartoon = document.getElementById("Cartoon");
+			var play = document.getElementById("Play"),
+			    paused = document.getElementById("Pause"),
+			    stop = document.getElementById("Stop");
+			    
+			play.onclick = function(){//播放
+				cartoon.className = cartoon.className+=" walk";
+				cartoon.style.animationPlayState = "running";
+			}
+			
+			paused.onclick = function(){//暂停
+				cartoon.style.animationPlayState = "paused";
+			}
+			
+			stop.onclick = function(){//停止
+				cartoon.className = "cartoon";
+			}
+		</script>
+	</body>
+</html>

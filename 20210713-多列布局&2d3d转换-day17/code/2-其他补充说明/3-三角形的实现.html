@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        
+
+        .wrap{
+            width: 300px;
+            height: 400px;
+            background: skyblue;
+            position: relative;
+        }
+        /* 在wrap的内容后面添加一个伪元素 */
+        .right:after{
+            content: '';
+            display: block;
+            width: 0;
+            height: 0;
+            border: 10px solid transparent;
+            border-left: 10px solid skyblue;
+            position: absolute;
+            bottom: 20px;
+            right: -18px;
+            
+        }
+    
+    </style>
+</head>
+<body>
+    <!-- <div></!--> 
+
+    <div class="wrap right">
+        这是聊天框
+        <!-- <div class="box"></div> -->
+    </div>
+
+    <div class="wrap left">
+            这是聊天框
+            <!-- <div class="box"></div> -->
+        </div>
+</body>
+</html>

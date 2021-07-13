@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<style type="text/css">
+			* {
+				margin: 0;
+				padding: 0;
+			}
+
+			button,
+			input {
+				border: 0;
+				outline: none;
+			}
+
+			img {
+				vertical-align: middle;
+			}
+
+			.box1 {
+				height: 36px;
+				border: 1px solid #e4e0db;
+				margin: 20px;
+				display: flex;
+			}
+
+			button {
+				height: 36px;
+				background: #f4f3f0;
+				text-align: center;
+				line-height: 36px;
+				font-size: 12px;
+				border-right: 1px solid #E4E0DB;
+				padding: 0 12px;
+			}
+
+			.box1 input {
+				flex: 1;
+				padding: 0 5px;
+			}
+
+			.box2 button {
+				border: 0;
+				border-left: 1px solid #E4E0DB;
+			}
+
+			.but {
+				border: 0;
+				border-left: 1px solid #E4E0DB;
+			}
+		</style>
+	</head>
+	<body>
+		<form action="" class="box1">
+			<button>Amount</button>
+			<input type="text" />
+		</form>
+		<form action="" class="box1 box2">
+			<input type="text" />
+			<button>Go</button>
+		</form>
+		<form action="" class="box1">
+			<button><img src="img/icon1.jpg" /></button>
+			<input type="text" />
+		</form>
+		<form action="" class="box1 box2">
+			<input type="text" />
+			<button><img src="img/icon2.jpg" /></button>
+		</form>
+		<form action="" class="box1 ">
+			<button><img src="img/icon3.jpg" /></button>
+			<input type="text" />
+			<button class="but">Send</button>
+		</form>
+	</body>
+</html>

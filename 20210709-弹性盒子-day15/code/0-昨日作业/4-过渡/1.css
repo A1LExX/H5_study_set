@@ -1,0 +1,16 @@
+
+.wrap{
+    
+}
+.wrap div{
+    width: 227px;
+    margin: 40px;
+    height: 150px;
+    background: url(anli1.png) no-repeat 0 0;
+    transition:background 1s linear;
+    border: 2px solid blue;
+}
+.wrap div:hover{
+    background-position: 0 -150px;
+    background-color: #F8F8F8;
+    }

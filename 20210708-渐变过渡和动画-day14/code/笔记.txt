@@ -1,0 +1,108 @@
+0-昨日回顾
+    1.css兼容性
+    2.常见属性
+        1.文字阴影  text-shadow: x y 模糊程度 颜色；    
+        2.盒子阴影  box-shadow:x  y  模糊程度 颜色 inset；
+        3.圆角     border-radius: *px | *%;
+    3.字体图标 iconfont  会用
+    4.选择器
+        1.选中第一个子元素e    e:first-child{   }
+          选中最后一个子元素e  e：last-child{}
+          选中第n个子元素e     e:nth-child(n) {}
+          选中倒数第n个子元素e     e:nth-last-child(n) {}
+          选中唯一的子元素e     e:only-child{}
+
+          注意：child系列，强调的是元素e在所有的兄弟元素中的排列顺序。  【不限标签种类】
+               type系列，强调的是元素e在同类型兄弟元素中的排列顺序。  【限标签种类】
+        
+        2.选中被禁用的元素e    e:disabled{   }    
+            可用e             e:enabled{ }
+            选中的元素e        e:checked{  }
+        
+        3.否定伪类选择器 【反选】
+            e:not(f)    选中e中排除f的剩下的元素
+        4. 动态伪类选择器
+            :link
+            :visited
+            :active
+            :hover
+
+1.盒子模型中的两种模式： 标准模式和怪异模式
+    概念：其实只是盒子模型中的不同模式而已。
+        元素实际占据的宽高的计算方式不一样。
+            标准模式计算： 元素实际占据的宽度 = width + margin + padding + border
+            怪异模式计算： 元素实际占据的宽度 = width + margin
+    语法：
+        box-sizing: border-box | content-box;
+        border-box就是怪异模式，content-box就是标准模式。
+
+2.背景渐变
+    1.线性渐变
+        1.普通
+            background:linear-gradient(颜色1,颜色2);
+        2.改变方向
+            background:linear-gradient(to 方向的英文,颜色1,颜色2);        [方向：left right top bottom]
+        3.对角 
+            background:linear-gradient(to 垂直 水平,颜色1，颜色2);   [水平方向有left|right,垂直 top | bottom ，方向不分先后 ]
+        4.角度
+            background:linear-gradient(*deg,颜色1,颜色2); [顺时针旋转]
+        5.控制比例
+            background:linear-gradient(*deg,颜色1 *%,颜色2 *%);  [可以是前面1-4的任意写法，在颜色后面写上比例即可]
+    
+    2.径向渐变  
+        1.普通
+            background:radial-gradient(颜色1，颜色2);
+
+        2.控制比例-不均匀分布
+            background:radial-gradient(颜色1 *%,颜色2 *%);
+
+        1.控制图案-圆圈circle 椭圆ellipse
+            background:radial-gradient(图案,颜色1，颜色2);
+    
+    3.重复渐变
+        repeating-radial-gradient()  重复径向渐变
+        repeating-linear-gradient()  重复线性渐变
+
+3.过渡：让一个变化的属性，慢慢变。
+    语法：  
+        单个：   transition: 渐变的属性  渐变的时间  渐变的延迟时间  变化的曲线;
+        多个：   transition: 渐变的属性1  渐变的时间  渐变的延迟时间  变化的曲线,渐变的属性2  渐变的时间  渐变的延迟时间  变化的曲线;
+                说明：如果要有先后顺序，给后面的属性加对应的延迟时间即可。
+
+4.动画
+    1.定义动画
+        @keyframes 动画名{
+            from{
+                动画开始时候的样式
+            }
+            to{
+                动画结束时的状态
+            }
+        }
+        方式2：
+            @keyframes 动画名{
+                0%{
+                    动画开始时候的样式
+                }
+                *%{
+                    中间状态，可以自己定义百分之几
+                }
+                100%{
+                    动画结束时的状态
+                }
+            }
+
+    2.绑定-执行动画
+        animation：动画名 动画执行时间  动画执行次数  动画延迟时间  动画变化曲线  动画下一次执行的方向;
+            动画执行次数:可以是数字，可以是无限infinite
+            动画变化曲线:linear 匀速改变
+            动画下一次执行的方向：alternate代表会反向
+        
+        暂停动画：  animation-play-state:paused; 
+
+  给div实现一个动画效果： 
+      开始背景色是粉红色，后面经过2秒变成天蓝色 ，执行3次，匀速改变
+
+
+       
+            

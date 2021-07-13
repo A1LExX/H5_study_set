@@ -1,0 +1,35 @@
+1.内边距      padding
+2.外边距的属性  margin
+3.设置边框的属性  border
+4.设置浮动的属性  float
+5.设置文本修饰线的属性  text-decoration
+6.下划线的属性值  underline
+7.没有修饰线的属性值  none
+8.设置文本样式的属性 font-style
+9.设置文本类型的属性   font-family
+10.设置行高的属性  line-height
+11.设置文本缩进的属性   text-indent
+12.设置文本加粗的属性  font-weight
+13.设置贯穿线的属性值  line-through
+14.设置文本溢出显示省略号或者裁剪的属性   text-overflow
+15.设置超出隐藏或者是滚动条等的属性  overflow
+16.设置类型转换的属性【显示与隐藏的属性】   display
+17.设置垂直居中的属性  【解决图片3px问题】  vertical-align
+18.设置字体大小的属性  font-size
+19.设置文本颜色的属性  color
+20.设置背景相关的复合属性   background
+21.定位的属性  position
+22.固定定位的属性值  fixed
+23.相对定位的属性值  relative
+24.绝对定位的属性值  absolute
+25.上方向  top
+26.下方向  bottom
+27.背景不重复的属性值   no-repeat
+28.设置背景图大小的属性  background-size
+29.表单标签  form
+30.设置表单提交数据地址的属性   action
+
+
+
+
+

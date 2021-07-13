@@ -1,0 +1,6 @@
+/*把html和body的高度设置为100%*/
+html, body{
+	width: 100%;
+	height: 100%;
+}
+

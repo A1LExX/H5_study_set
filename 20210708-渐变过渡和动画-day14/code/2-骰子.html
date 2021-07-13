@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .wrap {
+            width: 100px;
+            height: 100px;
+            border: 1px solid #000;
+            display: flex;
+        }
+
+        .wrap div {
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+            background: pink;
+        }
+
+        .wrap:nth-child(1) {
+            justify-content: center;
+            align-items: center;
+        }
+        .wrap:nth-child(2) {
+            justify-content: space-evenly;
+            align-items: center;
+        }
+        .wrap:nth-child(3) {
+            justify-content: space-evenly;
+            align-items: center;
+        }
+        .wrap:nth-child(3) div:nth-child(1){
+            align-self: flex-start;
+        }
+        .wrap:nth-child(3) div:nth-child(3){
+            align-self: flex-end;
+        }
+       
+        
+    </style>
+</head>
+
+<body>
+    <div class="wrap">
+        <div></div>
+    </div>
+    <div class="wrap">
+        <div></div>
+        <div></div>
+    </div>
+    <div class="wrap">
+        <div></div>
+        <div></div>
+        <div></div>
+    </div>
+    <div class="wrap">
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+    </div>
+    <div class="wrap">
+        <div></div>
+    </div>
+    <div class="wrap">
+        <div></div>
+    </div>
+    <div class="wrap">
+        <div></div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .wrap {
+            width: 880px;
+            height: 550px;
+            border: 1px solid #000;
+            background: pink;
+            margin: 50px;
+            /* 将元素变成弹性盒子 */
+            display: flex;
+            /* 让项目换行 */
+            flex-wrap: wrap;
+            /* 设置元素在主轴的对齐方式 */
+            justify-content: space-evenly;
+            /* 在侧轴上的对齐 */
+            /* align-items: center; */
+            align-content: space-evenly;
+        }
+
+        .wrap>div {
+            width: 200px;
+            height: 250px;
+            border: 1px solid #000;
+            background: skyblue;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .wrap>div>div{
+            display: inline-block;
+            width: 100px;
+            height: 100px;
+            background: orange;
+        }
+
+    </style>
+</head>
+
+<body>
+    <div class="wrap">
+        <div>
+            <div></div>
+            <a href="#">待付款</a>
+        </div>
+        <div>
+            <div></div>
+            <a href="#">待付款</a>
+        </div>
+        <div>
+            <div></div>
+            <a href="#">待付款</a>
+        </div>
+        <div>
+            <div></div>
+            <a href="#">待付款</a>
+        </div>
+
+    </div>
+</body>
+
+</html>

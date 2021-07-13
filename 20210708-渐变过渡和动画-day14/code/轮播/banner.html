@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .wrap {
+            border: 1px solid #000;
+            margin: 100px;
+            width: 750px;
+            overflow: hidden;
+        }
+
+        .content {
+            width: 1500px;
+            height: 150px;
+            margin-left: 0px;
+            animation: run 3s linear infinite;
+        }
+
+        .content img {
+            width: 150px;
+            height: 150px;
+            /* 行内块元素的间隔 */
+            float: left;
+            transition: all 1s;
+        }
+
+        .content:hover {
+            animation-play-state: paused;
+        }
+        .content:hover img{
+            opacity: 0.5;
+        }
+        .content img:hover {
+            opacity: 1;
+        }
+
+        /* 定义动画 */
+        @keyframes run {
+            0% {}
+
+            100% {
+                margin-left: -750px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="wrap">
+        <div class="content">
+            <a href="#"><img src="images/0.png" alt=""></a>
+            <a href="#"><img src="images/1.png" alt=""></a>
+            <a href="#"><img src="images/2.png" alt=""></a>
+            <a href="#"><img src="images/3.png" alt=""></a>
+            <a href="#"><img src="images/4.png" alt=""></a>
+            <a href="#"><img src="images/0.png" alt=""></a>
+            <a href="#"><img src="images/1.png" alt=""></a>
+            <a href="#"><img src="images/2.png" alt=""></a>
+            <a href="#"><img src="images/3.png" alt=""></a>
+            <a href="#"><img src="images/4.png" alt=""></a>
+            <a>
+        </div>
+    </div>
+</body>
+
+</html>

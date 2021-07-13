@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        body{
+            margin: 300px;
+        }
+        .wrap{
+            width: 200px;
+            height: 200px;
+            background: #000;
+            border-radius: 50%;
+            position: relative;
+        }
+        .box{
+            width: 130px;
+            height: 130px;
+            background: #000;
+            border-radius: 50%;
+            position: absolute;
+            top: -48px;
+        }
+        .left{
+            left: -45px;
+        }
+        .right{
+            right: -45px;
+        }
+        .eye{
+            width: 50px;
+            height: 40px;
+            border-radius: 50%;
+            background: #fff;
+            position: absolute;
+            top: 67px;
+        }
+        .eyeleft{
+            left: 23px;
+        }
+        .eyeright{
+            right: 23px;
+        }
+        .eye .inside{
+            width: 30px;
+            height: 30px;
+            background: #000;
+            border-radius: 50%;
+            position: absolute;
+            top: 13px;
+            left: 11px;
+        }
+        .mouth{
+            width: 50px;
+            height: 30px;
+            background: #fff;
+            border-bottom-left-radius: 50px; 
+            border-bottom-right-radius: 50px; 
+            position: absolute;
+            bottom: 35px;
+            right: 75px;
+        }
+      
+    
+    </style>
+</head>
+<body>
+    <div class="wrap">
+        <div class="left box"></div>
+        <div class="right box"></div>
+        <div class="eye eyeleft"><div class="inside"></div></div>
+        <div class="eye eyeright"><div class="inside"></div></div>
+        <div class="mouth"></div>
+    </div>
+</body>
+</html>

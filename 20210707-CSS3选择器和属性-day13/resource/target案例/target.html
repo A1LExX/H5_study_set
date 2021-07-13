@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        .wrap{
+            position: relative;
+            height: 400px;
+        }
+        img{
+            width: 600px;
+        }
+        .box{
+            width: 200px;
+            height: 300px;
+            overflow: hidden;
+            border: 1px solid #000;
+            float: left;
+            transition: all 1s;
+        }
+        .fixed{
+            position: absolute;
+            bottom: 0;
+            left: 0;
+        }
+        .fixed a{
+            display: inline-block;
+            width: 200px;
+        }
+        .box:target{
+            width: 600px;
+            background: pink;
+        }
+    </style>
+</head>
+
+<body>
+ 
+
+    <div class="wrap">
+            <div id="box1" class="box">
+                    <img src="imgs/dmxy.jpg" alt="">
+                </div>
+                <div id="box2" class="box">
+                    <img src="imgs/hazn.jpg" alt="">
+                </div>
+                <div id="box3" class="box">
+                    <img src="imgs/ms.jpg" alt="">
+                </div>
+                <div id="box4" class="box">
+                    <img src="imgs/hbss.jpg" alt="">
+                </div>
+            
+                <div class="fixed">
+                    <a href="#box1">德玛西亚-盖伦</a>
+                    <a href="#box2">黑暗之女-安妮</a>
+                    <a href="#box3">盲僧-李青</a>
+                    <a href="#box4">寒冰射手-艾希</a>
+                </div>
+
+
+    </div>
+</body>
+
+</html>

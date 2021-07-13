@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        div {
+            width: 100px;
+            height: 100px;
+            margin-bottom: 20px;
+            border: 1px solid #000;
+        }
+
+        div:first-child {
+            /* 线性渐变 */
+            background: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,1));
+        }
+
+        /* 改方向 */
+        div:nth-child(2) {
+            /* 线性渐变 */
+            /* background: linear-gradient(to bottom ,red,green); */
+            background: linear-gradient(to bottom, red, green);
+        }
+
+        /* 对角 */
+        div:nth-child(3) {
+            /* 线性渐变 */
+            /* background: linear-gradient(to bottom ,red,green); */
+            background: linear-gradient(to right bottom, red, green);
+        }
+
+        /* 角度 */
+        /* 对角 */
+        div:nth-child(4) {
+            /* 线性渐变 */
+            /* background: linear-gradient(to bottom ,red,green); */
+            background: linear-gradient(0deg, red, green,orange);
+        }
+        
+        /* 改变比例 */
+        div:nth-child(5) {
+            /* 线性渐变 */
+            /* background: linear-gradient(to bottom ,red,green); */
+            background: linear-gradient( red 20%, green 30% ,orange 50% );
+        }
+        div:nth-child(6) {
+            width: 600px;
+            /* 线性渐变 */
+            /* background: linear-gradient(to bottom ,red,green); */
+            background: linear-gradient(0deg, red 50% ,orange 50% );
+        }
+    </style>
+</head>
+
+<body>
+    <div>这是盒子1</div>
+    <div>这是盒子2</div>
+    <div>这是盒子3</div>
+    <div>这是盒子4</div>
+    <div>这是盒子5</div>
+    <div>这是盒子6</div>
+</body>
+
+</html>

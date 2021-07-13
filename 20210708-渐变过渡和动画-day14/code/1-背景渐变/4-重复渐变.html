@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        div {
+            width: 100px;
+            height: 100px;
+            margin-bottom: 20px;
+            border: 1px solid #000;
+        }
+
+        div:first-child {
+            /* 线性渐变 */
+            /* background: linear-gradient(red,green); */
+            background: repeating-linear-gradient(red,green);
+        }
+        div:nth-child(2) {
+            /* 线性渐变 */
+            /* background: linear-gradient(red,green); */
+            background: repeating-linear-gradient(red 20%,green 30%,orange 40%);
+        }
+
+        div:nth-child(3) {
+            /* 径向渐变 */
+            background: repeating-radial-gradient(red 20%,green 30%);
+        }
+
+        
+    </style>
+</head>
+
+<body>
+    <div>这是盒子1</div>
+    <div>这是盒子2</div>
+    <div>这是盒子3</div>
+    <div>这是盒子4</div>
+    <div>这是盒子5</div>
+    <div>这是盒子6</div>
+</body>
+
+</html>

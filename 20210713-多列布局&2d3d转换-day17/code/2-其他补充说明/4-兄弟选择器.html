@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+       .wrap{
+           border: 1px solid #000;
+       }
+       /* 相邻 */
+       /* .box+p{
+           color: red;
+       } */
+       .box~p{
+           color: red;
+       }
+    </style>
+</head>
+<body>
+    <div class="wrap">
+        <div>1</div>
+        <p>这是p12</p>
+        <div class="box">2</div>
+        <p>这是p1</p>
+        <p>这是p2</p>
+        <p>这是p3</p>
+        <div>3</div>
+        <p>这是p2</p>
+    </div>
+    <p>这是外卖呢的p2</p>
+
+    <div class="wrap">
+        <img src="" alt="">
+        <span>加入购物车</span>
+    </div>
+
+    img:hover+span{
+        display:block;
+    }
+    
+</body>
+</html>

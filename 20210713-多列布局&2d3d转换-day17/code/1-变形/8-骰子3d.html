@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=4, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .wrap{
+            width: 200px;
+            height: 200px;
+            background: pink;
+            margin: 200px;
+            position: relative;
+            transform-style: preserve-3d;
+            transform: rotateX(0deg) rotateY(0deg); 
+        }
+        .wrap div{
+            width: 200px;
+            height: 200px;
+            border: 1px solid #000;
+            font-size: 80px;
+            font-weight: bold;
+            text-align: center;
+            line-height: 200px;
+            position: absolute;
+        }
+        .wrap div:nth-child(2){
+            transform-origin: right;
+            transform: rotateY(90deg);
+        }
+        .wrap div:nth-child(3){
+            transform-origin: top;
+            transform: rotateX(90deg);
+        }
+        .wrap div:nth-child(4){
+            transform-origin: left;
+            transform: rotateY(-90deg);
+        }
+        .wrap div:nth-child(5){
+            transform-origin: bottom;
+            transform: rotateX(-90deg);
+        }
+        .wrap div:nth-child(6){
+            transform: translateZ(200px);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="wrap">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+        <div>5</div>
+        <div>6</div>
+    </div>
+
+
+</body>
+
+</html>

@@ -1,0 +1,104 @@
+0.昨日回顾
+    1.标签语义化
+        概念：有意义，见名知意。提倡用正确的标签去描述相应的内容
+        常见的语义化标签：
+            header
+            main
+            footer
+            nav
+            section
+            aside
+            article
+        音频：
+            <audio src='' controls autoplay></audio>
+        视频：
+            <video src='' controls poster=''></video>
+        好处： 代码具有可读性、方便seo
+    
+    2.表单新增的属性和标签
+        <form novalidata>
+            <input required autofocus maxlength placeholder>
+        </form>
+
+        datalist
+
+        <input list='id名'>
+        <datalist id='id名'>
+            <option value=''>内容</option>
+        </datalist>
+1.css3兼容性处理
+    方法：添加私有前缀
+        代表浏览器     浏览器内核    前缀
+            欧朋         presto     -o-
+            IE          trident     -ms-
+            火狐         gecko      -moz-
+            谷歌         webkit     -webkit-
+
+2.渐进增强和优雅降级
+    项目开发中的两种思想而已。
+    渐进增强：先完成最基本的功能，后面针对高版本的浏览器，再添加功能或者是酷炫的效果。意味着向后看。
+    优雅降级：先完成所有的功能，再针对低版本的浏览器，进行功能、酷炫效果、交互的删减，保证最基本的功能的实现。意味着向前看
+
+3.css3新增的属性
+    1.文字阴影
+        text-shadow:x的偏移 y的偏移 模糊程度 阴影的颜色;
+    
+    2.盒子阴影
+        box-shadow: x的偏移 y的偏移 模糊程度 阴影的颜色 inset;
+        inset代表内阴影，不要就是外阴影；
+    
+    3.圆角
+        border-radius:*px | *%;
+
+4.字体图标
+    使用方式1：
+        1.设置字体类型
+            @font-face{
+                font-family:'字体名称';
+                src:url('*.ttf');   设置字体文件的路径
+            }
+        
+        2.在html中写对应的结构
+            <i> 对应图标的unicode </i>
+        
+        3.给图标设置字体类型为第一步设置的字体名称
+    
+    使用方式2：
+        1.引入iconfont.css
+        2.加图标对应的类名就可以使用
+            <span class='iconfont 类名'></span>
+
+5.其他选择器
+    1.属性选择器
+        e[attr]  匹配含有attr属性的元素e  
+    
+    2.结构伪类选择器
+        1.选中第一个子元素e         e:first-child{   }
+        2.选中最后一个子元素e       e:last-child{   }
+        3.选中第m个子元素e          e:nth-child(m){  }
+                m是乘法因子，可以是数字、英文单词、数学表达式；   2n代表偶数  2n+1代表奇数
+        4.选中倒数第n个子元素e      e:nth-last-child(n){ }
+        5.选中唯一的子元素e         e:only-child{  }
+
+        注意：child系列强调的是元素在所有的同级兄弟之间的排列顺序  【种类不限】
+
+        type系列：写法只是将child改成 of-type,他强调元素在所有同类型兄弟之间的排列顺序。
+    
+    3.状态伪类选择器
+        e:disabled  {  }       选中不可用的e元素 
+        e:enabled   {  }       选中可用的e元素 
+        input:checked   {  }   选中被选中的e元素 
+
+    4.动态伪类选择器（了解）
+        未激活的链接      :link
+        激活的链接       :active
+        已经访问的链接   :visited
+        鼠标悬停         :hover
+    
+    5.否定伪类选择器
+        e:not(f)       选中e元素中，除去f的元素
+    
+    6.目标伪类选择器
+        e:target{  }   选中为目标区域的元素e
+
+        

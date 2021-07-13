@@ -1,0 +1,93 @@
+html,body{
+    width: 100%;
+    height: 100%;
+}
+body{
+    display: flex;
+    flex-direction: column;
+}
+/* 页头 */
+.header{
+    height: 0.98rem;
+    background: #387ec2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header div{
+    width: 5.05rem;
+    height: 0.98rem;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.header div img{
+    width: 1.66rem;
+    height: 0.6rem;
+}
+.header i{
+    font-size: 0.44rem;
+    color: #fff;
+}
+/* 主体 */
+.main{
+    background: skyblue;
+    flex: 1;
+    overflow: auto;
+}
+/* 轮播 */
+.banner{
+    width: 100%;
+    height: 3.15rem;
+}
+.banner img{
+    width: 100%;
+    height: 100%;
+}
+/* 学员必读 */
+.read{
+    height: 0.64rem;
+    background: #f2f2f2;
+    display: flex;
+    justify-content: center;
+}
+.read>div:nth-child(1){
+    width: 1.7rem;
+    height: 0.64rem;
+    background: pink;
+}
+.read>div:nth-child(2){
+    width: 1.7rem;
+    height: 0.64rem;
+    background: skyblue;
+    
+}
+.read>div:nth-child(3){
+    width: 2.5rem;
+    height: 0.64rem;
+    background: orange;
+    
+}
+/* 导航 */
+.nav{
+    display: flex;
+    background: #efeff4;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.nav>div{
+    width: 1.86rem;
+    height: 1.86rem;
+    background: #fff;
+    margin-bottom: 0.02rem;
+}
+/* 新闻资讯 */
+.news{
+    height: 300px;
+    background: skyblue;
+}
+/* 页脚 */
+.footer{
+    height: 0.98rem;
+    background: #e5e3e1;
+}

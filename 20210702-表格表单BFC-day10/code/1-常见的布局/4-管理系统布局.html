@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        html,
+        body {
+            height: 100%;
+            width: 100%;
+        }
+        .top{
+            width: 100%;
+            height: 50px;
+            background: pink;
+            position: absolute;
+            top: 0;
+            left: 0;
+        }
+        .content{
+            width: 100%;
+            background: skyblue;
+            position: absolute;
+            left: 0;
+            top: 50px;
+            bottom: 60px;
+           
+        }
+        .foot{
+            width: 100%;
+            height: 60px;
+            background: orange;
+            position: absolute;
+            bottom: 0;
+            left: 0;
+        }
+       .left{
+           width: 300px;
+           height: 400px;
+           background: #ddd;
+           float: left;
+       }
+       .right{
+           height: 200px;
+           background: purple;
+           overflow: hidden;
+       }
+    </style>
+</head>
+
+<body>
+   <div class="top"></div>
+   <div class="content">
+       <div class="left"></div>
+       <div class="right"></div>
+   </div>
+   <div class="foot"></div>
+</body>
+
+</html>

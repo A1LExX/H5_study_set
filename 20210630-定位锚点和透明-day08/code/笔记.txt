@@ -29,12 +29,34 @@
                     margin:auto;
         3. relative  相对定位：基于元素原来的位置进行移动
         4. absolute  绝对定位：基于被设置非静态定位的最近上级元素进行定位。如果都没有，基于浏览器的第一屏进行定位。
-           
+        5. sticky    粘性定位：
+
+2.锚点
+    语法：
+        <div id='id名'>要跳转到的区域</div>
+        <a href='#id名'>链接的文字</a>
+
+3.透明度
+    opacity:数字；   【值应该在0-1之间，0是完全透明，1是完全不透明】
+    兼容低版本ie    filter:alpha(opacity=数值);     [值应该在0-100之间，0为完全透明]
+
+
 
 
 
 
 作业：
     1.京东导航条实现
-    2.轮播布局实现
-    3.
+    3.实现锚点链接的轮播效果
+    4.
+    
+
+
+    position: fixed | absolute | relative;  [盒子居中]
+    锚点的语法
+        <div id='id名'></div>
+        <a href='#id名'></a>
+    透明度
+        filter:alpha(opacity=数值)   ie
+        opacity:数值;
+    

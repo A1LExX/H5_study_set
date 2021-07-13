@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .nav {
+            width: 620px;
+            height: 40px;
+            margin: 0 auto;
+        }
+
+        .nav li {
+            width: 100px;
+            height: 40px;
+            background: skyblue;
+            list-style: none;
+            text-align: center;
+            line-height: 40px;
+            float: left;
+            border: 1px solid #fff;
+        }
+
+        .nav a {
+            text-decoration: none;
+            color: #fff;
+        }
+        .subnav{
+            height: 0;
+            overflow: hidden;
+            transition: all 1s;
+        }
+        li:hover .subnav{
+            height: 200px;
+        }
+    </style>
+</head>
+
+<body>
+    <ul class="nav">
+        <li>
+            <a href="#">导航1</a>
+            <ul class="subnav">
+                <li><a href="#">二级1</a></li>
+                <li><a href="#">二级</a></li>
+                <li><a href="#">二级</a></li>
+            </ul>
+        </li>
+        <li>
+            <a href="#">导航2</a>
+            <ul class="subnav">
+                <li><a href="#">二级2</a></li>
+                <li><a href="#">二级</a></li>
+                <li><a href="#">二级</a></li>
+            </ul>
+        </li>
+        <li><a href="#">导航3</a></li>
+        <li><a href="#">导航</a></li>
+        <li><a href="#">导航</a></li>
+        <li><a href="#">导航</a></li>
+    </ul>
+</body>
+
+</html>

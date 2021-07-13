@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        div {
+            width: 200px;
+            height: 100px;
+            margin-bottom: 20px;
+            border: 1px solid #000;
+        }
+        div:first-child {
+            background: radial-gradient(skyblue, orange);
+        }
+
+        /* 不均匀 */
+        div:nth-child(2) {
+            /* background: linear-gradient(to bottom ,red,green); */
+            background: radial-gradient(skyblue 20%, red 40%,skyblue 40%);
+            
+        }
+
+        /* 改变形状 */
+        div:nth-child(3) {
+            /* background: linear-gradient(to bottom ,red,green); */
+            background: radial-gradient(circle, red, green);
+        }
+
+      
+    </style>
+</head>
+
+<body>
+    <div>这是盒子1</div>
+    <div>这是盒子2</div>
+    <div>这是盒子3</div>
+</body>
+
+</html>

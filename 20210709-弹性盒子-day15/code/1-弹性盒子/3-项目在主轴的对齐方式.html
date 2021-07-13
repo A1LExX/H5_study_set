@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        .wrap {
+            width: 500px;
+            height: 300px;
+            background: pink;
+            display: flex;
+            margin-bottom: 20px;
+            box-sizing: border-box;
+           
+        }
+        .wrap:nth-child(1){
+            /* 设置主轴方向 */
+          
+            justify-content: center;
+        }
+        .wrap:nth-child(2){
+            justify-content: space-around;
+        }
+        .wrap:nth-child(3){
+            justify-content: space-between;
+        }
+        .wrap:nth-child(4){
+            padding: 5px;
+            justify-content: space-between;
+        }
+        .wrap:nth-child(5){
+            justify-content: space-evenly;
+        }
+        .wrap:nth-child(6){
+            justify-content: flex-start;
+        }
+        .wrap:nth-child(7){
+            justify-content: flex-end;
+        }
+
+      
+        .wrap>div {
+            width: 100px;
+            height: 50px;
+            background: skyblue;
+            border: 1px solid #000;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="wrap">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+    </div>
+    <div class="wrap">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+    </div>
+
+    <div class="wrap">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+    </div>
+
+    <div class="wrap">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+    </div>
+    <div class="wrap">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+    </div>
+    <div class="wrap">
+            <div>1</div>
+            <div>2</div>
+            <div>3</div>
+            <div>4</div>
+        </div>
+        <div class="wrap">
+            <div>1</div>
+            <div>2</div>
+            <div>3</div>
+            <div>4</div>
+        </div>
+</body>
+
+</html>

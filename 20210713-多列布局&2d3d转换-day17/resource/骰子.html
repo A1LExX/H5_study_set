@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <!-- 理想视口，网页的大小会随着视口动态改变，控制用户不准放大缩小 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        .wrap{
+            width: 200px;
+            height: 200px;
+            transform-style: preserve-3d;
+            margin: 100px;
+            border: 1px solid #000;
+            /* 设置景深 */
+            position: relative;
+            transform: rotateX(30deg) rotateY(30deg);
+            /* perspective: 0px; */
+            /* 背面是否可见 */
+            backface-visibility:visible;
+        }
+        .wrap div{
+            width: 200px;
+            height: 200px;
+            font-size: 80px;
+            font-weight: bold;
+            border: 1px solid #000;
+        }
+
+        .wrap div{
+            position: absolute;
+        }
+        .wrap div:nth-child(2){
+            transform-origin: left;
+            transform: rotateY(90deg);
+        }
+        .wrap div:nth-child(3){
+            transform-origin: top;
+            transform: rotateX(-90deg);
+        }
+        .wrap div:nth-child(4){
+            transform-origin: right;
+            transform: rotateY(-90deg);
+        }
+        .wrap div:nth-child(5){
+            transform-origin: bottom;
+            transform: rotateX(90deg);
+        }
+        .wrap div:nth-child(6){
+            transform-origin: bottom;
+            transform: translateZ(-200px)
+        }
+       
+        
+    </style>
+    <!-- <script src="rem.js"></script> -->
+</head>
+
+<body>
+    <div class="wrap">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+        <div>5</div>
+        <div>6</div>
+    </div>
+
+    
+</body>
+
+</html>

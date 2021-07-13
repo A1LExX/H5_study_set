@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        .wrap {
+            width: 1200px;
+            background: pink;
+            /* overflow: hidden; */
+        }
+
+        .left {
+            width: 400px;
+            height: 200px;
+            background: orange;
+            float: left;
+        }
+
+        .right {
+            width: 780px;
+            height: 300px;
+            background: skyblue;
+            float: right;
+        }
+
+        /* .clear {
+            clear: both;
+        }
+        */
+       .clearfix:after{
+           content: '';
+           display: block;
+           clear: both;
+           height: 0;
+       }
+        
+    </style>
+</head>
+
+<body>
+    <!-- 给浮动元素添加一个空的兄弟元素div,给兄弟一个类名clear,设置样式 clear:both; -->
+    <div class="wrap clearfix ">
+        <div class="left"></div>
+        <div class="right"></div>
+    </div>
+   
+    <div class="wrap clearfix ">
+            <div class="left"></div>
+            <div class="right"></div>
+        </div>
+
+</body>
+
+</html>

@@ -1,0 +1,22 @@
+常见的兼容性问题：
+        1. 图片3px问题      
+                img--vertical-align:;
+                display:block;
+
+        2. 行内块元素之间默认的间隔  
+                浮动
+                去掉间隔
+
+        3. 图片外面有链接，图片在低版本浏览器里面会有边框
+                给img设置border为0
+
+        4. png24在ie6里面不是透明的。    
+                png8 或者 gif
+
+        5. 表单元素垂直方向没有对齐  
+                浮动
+                vertical-align
+
+        6. 鼠标移入，实现手型   
+                cursor: hand ;
+                cursor: pointer; 

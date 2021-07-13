@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        /* 禁用-不可用 */
+        input:disabled{
+            width: 400px;
+        }
+        button:disabled{
+            width: 300px;
+        }
+        /* 可用 */
+        /* input:enabled{
+            width: 200px;
+            height: 50px;
+            background: pink;
+        } */
+        input:checked{
+            width: 30px;
+            height: 30px;
+        }
+    
+    </style>
+</head>
+<body>
+    <form action="#">
+        1<input type="text" name="" id="" disabled>
+        <br>
+        2<input type="text" name="" id="">
+
+
+        <br>
+        <input type="checkbox" name="" id="">c
+        <input type="checkbox" name="" id="">t
+        <input type="checkbox" name="" id="">r
+        <input type="checkbox" name="" id="">l
+        <button type="button" disabled>普通</button>
+        <button type="submit">提交</button>
+    </form>
+</body>
+</html>

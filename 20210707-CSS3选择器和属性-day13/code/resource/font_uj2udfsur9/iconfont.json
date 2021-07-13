@@ -1,0 +1,58 @@
+{
+  "id": "",
+  "name": "",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "21643424",
+      "name": "杯子蛋糕",
+      "font_class": "beizidangao",
+      "unicode": "e646",
+      "unicode_decimal": 58950
+    },
+    {
+      "icon_id": "21643425",
+      "name": "爆米花",
+      "font_class": "baomihua",
+      "unicode": "e647",
+      "unicode_decimal": 58951
+    },
+    {
+      "icon_id": "21643434",
+      "name": "柠檬",
+      "font_class": "ningmeng",
+      "unicode": "e64b",
+      "unicode_decimal": 58955
+    },
+    {
+      "icon_id": "21643435",
+      "name": "牛排",
+      "font_class": "niupai",
+      "unicode": "e64c",
+      "unicode_decimal": 58956
+    },
+    {
+      "icon_id": "22624323",
+      "name": "国际物流",
+      "font_class": "icon-pro-kjwy3",
+      "unicode": "e602",
+      "unicode_decimal": 58882
+    },
+    {
+      "icon_id": "22624377",
+      "name": "物流管理",
+      "font_class": "icon-pro-wlgl3",
+      "unicode": "e604",
+      "unicode_decimal": 58884
+    },
+    {
+      "icon_id": "22624393",
+      "name": "仓库仓储Home",
+      "font_class": "icon-pro-wms3",
+      "unicode": "e605",
+      "unicode_decimal": 58885
+    }
+  ]
+}

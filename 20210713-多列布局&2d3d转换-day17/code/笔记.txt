@@ -1,0 +1,80 @@
+0-昨日回顾
+    移动端适配：
+        1.百分比
+        2.用rem配合js文件
+
+            *rem = 量取的宽度*100/750;
+        3.用vw和vh
+            *vw = 量取的宽度 * 100 / 设计稿的宽度
+
+    配置视口
+
+1.变形：位移、旋转、放缩、斜切
+    语法：
+        transform:变形的方式;
+    
+    1.位移[让元素移动位置]
+       transform: translate(x,y);  
+                  translateX(*px)
+                  translateY(*px)
+                  translateZ(*px)
+                  translate3d(x,y,z)
+    
+    2.旋转
+        transform:rotate(* deg);  [平面旋转]
+                rotateX(* deg)
+                rotateY(* deg)
+                rotateZ(* deg)
+                rotate3d(x,y,z)
+    
+    3.放缩
+        transform: scale(x,y)  [x对应宽度变化的倍数，y对应高度变化的倍数]
+                scaleX()
+                scaleY()
+                scaleZ()
+                scale3d(x,y,z)
+        
+    4.倾斜 skew()  [了解]
+
+    5.其他属性
+        1.改变元素变形的基点
+            transform-origin: x y z;
+        
+        2.景深【元素距离眼睛的距离】
+            perspective: 0px;
+        
+        3.转换成3d空间
+            transform-style: preserve-3d;
+
+
+0.多列布局
+    column-width: 240px;   列宽
+    column-count: 3;   列数
+    column-gap: 10px;  列与列之间的间隔
+    column-rule: 1px solid red;  列边框
+
+1.知识点补充
+    1. z-index:元素在z轴上的堆叠层次
+        z-index:数字;
+        元素默认都为0，值大的盖住值小的。
+        该属性要生效，必须有设置非静态定位才可以。
+
+    2.三角形实现步骤：
+        1.设置一个div宽高为0
+        2.设置div四边边框为透明色  transparent
+        3.设置要的三角形对应边为指定色
+    
+    3.seo的：
+        <meta name="description"    content="描述文字"/>
+        <meta name="keywords"    content="关键字"/>
+    
+    4.兄弟选择器
+        a+b 相邻   选中与a相邻的兄弟b 【只往后看】
+        a~b 同级兄弟   选中a后面的所有兄弟b 
+
+    5.变形顺序,会影响实际效果
+
+任务：
+
+
+

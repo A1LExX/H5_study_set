@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        .wrap div{
+            width: 200px;
+            height: 400px;
+            border: 1px solid #000;
+            /* 慢慢变化-过渡 */
+            transition: all 1s;
+        }
+        .fix{
+            position: fixed;
+            top: 40%;
+            right: 0;
+        }
+        .wrap div:target{
+            width: 400px;
+        }
+        
+        
+    </style>
+</head>
+<body>
+   <div class="wrap">
+       <div id="box1">盒子1</div>
+       <div id="box2">盒子2</div>
+       <div id="box3">盒子3</div>
+       <div id="box4">盒子4</div>
+   </div>
+   <div class="fix">
+       <a href="#box1" >链接1</a>
+       <a href="#box2" >链接2</a>
+       <a href="#box3" >链接3</a>
+       <a href="#box4" >链接4</a>
+   </div>
+</body>
+</html>

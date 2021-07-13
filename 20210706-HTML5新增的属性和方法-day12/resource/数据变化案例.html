@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+   
+   <input type="range" step="1" min="1" max="100" name="" id="rag">
+   <div id="box"></div>
+   <script>
+       rag.onchange = function(){
+           box.innerHTML = rag.value  +'%'
+       }
+   </script>
+</body>
+</html>

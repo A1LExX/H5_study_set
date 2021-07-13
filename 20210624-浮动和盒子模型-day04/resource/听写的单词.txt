@@ -1,0 +1,43 @@
+
+
+1.段落的标签   p
+2.标题的标签   hn
+3.加粗的标签   strong
+4.斜体的标签   em
+5.变大的标签  big
+6.变小的标签   small
+7.上标的标签   sup
+8.下标的标签   sub
+9.换行的标签   br
+10.水平线的标签    hr
+11.大空格的表示形式    &emsp;
+12.版权符号的表示形式    &copy;
+13.商标的表示形式   &reg;
+14.表单标签    form 
+15.输入框对应的标签    input
+<input type='text | '>
+16.文本类型输入框对应的type的属性值  text
+17.密码  password
+18.单选  radio
+19.复选  checkbox
+20.表单标签设置数据提交地址的属性  action
+21.表单标签设置数据提交的方式的属性   method
+22.所有标签相关的标签需要有的属性，没有就不能提交数据  name
+23.按钮的标签   button
+24.提交按钮对应的type属性值  submit
+25.重置按钮对应的type属性值   reset 
+26.实现css权重无穷的语法对应的单词    !important 
+27.设置浮动的属性   float
+28.链接的标签   a
+29.设置链接跳转的地址的属性   href
+30.设置链接跳转的页面打开方式的属性  target
+31.图片的标签   img
+32.设置图片路径的属性   src
+33.宽度的属性  width
+34.高度的属性  height
+35.表格框、表格行、表格单元格分别对应的标签   table tr td
+36.无序列表和列表项的标签   ul  li
+37.内边距的属性   padding
+38.外边距的属性   margin
+39.边框的属性   border
+40.设置表格双线边框之间的间隔的属性  cellspacing

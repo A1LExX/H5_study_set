@@ -1,0 +1,86 @@
+0.昨日回顾
+    1.表单
+        input的type属性的值
+            <input type='text | password | radio | checkbox | file | hidden ' name=''>
+        label标签
+            <label> <input> 关联的内容 </label>
+            <input id='名字'>  <label for='id的名字'>关联的内容</label>
+        下拉框、下拉列表
+            <select name=''>
+                <option value='值'>内容</option>
+                <option selected>内容</option>
+                <option>内容</option>
+            </select>
+        文本域：
+            <textarea name='' placeholder=''></textarea>
+        字段集：
+            <fieldset>
+                <legend></legend>
+            </fieldset>
+    
+    2.BFC：块级格式化上下文。
+    触发：
+        浮动
+        定位
+        overflow:;
+        display: inline-block | flex;
+    
+    应用：
+        1.margin的问题
+            1.父子-粘连、父随子动
+                1.父元素设置overflow:hidden;
+                2.用padding
+                3.给父元素设置边框
+            2.兄弟-塌陷
+                给一个兄弟身上设置足够的间隔。
+
+        2.清除浮动
+            给父元素设置overflow:hidden; 
+
+    3.兼容性
+        欧朋        presto
+        IE         trident
+        火狐       gecko
+        谷歌       webkit
+
+1.html5新增的标签和属性 
+    1.标签语义化
+        概念：语义就是有意义，要用正确的标签描述相应的内容。见名知意。
+        好处：
+            代码具有可读性。
+            方便seo.
+        新增的标签：
+            页头           header
+            页脚           footer
+            主体           main
+            导航           nav
+            侧栏           aside
+            文章           article
+            独立的区域、块  section
+    
+    2.多媒体标签
+        1.音频
+            <audio src='音频的路径' controls  autoplay  loop></audio>
+                controls 控件
+                autoplay 自动播放
+                loop 循环
+        2.视频
+            <video src='视频的路径' controls poster='海报的路径'>不能识别video标签的时候，显示的内容 </video>
+2.html5新增的type属性值和属性
+    1.type属性值：  email url number 
+
+    2.html5新增的属性
+        验证表单数据的正确性   novalidata
+        验证数据的必要性      required
+        提示符                placeholder
+        自动获取焦点          autofocus
+        最大长度              maxlength
+        自动补全              autocomplete          
+    
+    3.html5新增的标签
+        1.数据列表
+            语法：
+                <input list='id名'>
+                <datalist id="id名">
+                    <option value=''>内容</option>
+                </datalist>

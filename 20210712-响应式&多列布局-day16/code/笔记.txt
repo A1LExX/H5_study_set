@@ -1,0 +1,50 @@
+0-昨日回顾
+    弹性盒子：是一种新的布局方式。
+    
+    1.容器的属性
+        display:flex;   
+        主轴的方向： flex-direction：row | column ; 
+        在主轴的排列：  justify-content: center | space-around | space-between | space-evenly | flex-start | flex-end;
+        侧轴的排列     align-items : center | flex-start | flex-end | stretch 
+        是否换行     felx-wrap : nowrap ;
+        多行的时候，排列方式  align-content:  center | space-around | space-between | space-evenly | flex-start | flex-end
+
+    2.项目的属性
+        项目的排序  order:数字;
+        剩余空间分配   flex-grow:数字;  默认为0,要放大可以设置为1
+        挤压空间分配   flex-shrink: 数字； 默认为1，不缩小用0；
+        flex-basis:   
+              
+        flex: 1;  
+        单独排列方式：  align-self: center | flex-start | flex-end
+
+1.响应式
+    概念：任何尺寸的屏幕都会有一个适当的效果。
+    移动端实现响应式：
+        1.用百分比
+        2.用rem配合js实现
+            rem:基于html字体大小
+            *rem = 量取的宽度*100 / 750
+            实现步骤：
+                1.引入js文件
+                    <script src='js文件的路径'></script>
+                2.js文件里面的两个数字改成设计稿的宽度。
+                3.实现的时候，计算成对应的rem值即可。
+
+                利用插件完成px转rem:搜索px,安装第二个px to rem
+                    文件-首选项-设置-搜索 pxtorem,将默认文字大小，改为 100px 
+                    选中要转换单位的代码，alt+z一键转换。
+
+        3.使用vw和vh
+            任意屏幕宽 =  100vw
+            *vw = 量取的宽度*100/设计图的宽度
+        
+        移动端必须设置视口
+             <meta name="viewport" content="width=device-width, initial-scale=1.0">
+             
+
+            
+
+
+
+

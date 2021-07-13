@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <form action="http://taobao.com" method="get" >
+        用户名：
+            <input type="text" name='username'>
+        密码：
+            <input type='password' name='password'>  <br>
+        
+        <input type="file" name="file">  提交文件
+        <br>
+
+        <!-- 隐藏域：提交不想被用户看到的数据 -->
+        <input type="hidden" name="hide" value="提交的数据-A类">
+
+        <br>
+        <input type="radio" name="sex" id="nan">  <label for="nan">男</label>
+        <input type="radio" name="sex" id="nv" > <label for="nv">女</label>
+        <label><input type="radio" name="sex"> 人妖</label>
+        <br>
+            <!-- 下拉框、下拉列表 -->
+            <select name="city" id="" >
+                <option>北京</option>
+                <option  >上海</option>
+                <option>广州</option>
+                <option>成都</option>
+            </select>
+        <br>
+        文本域：
+           
+                <textarea name="msg" >
+
+
+
+
+
+                </textarea>
+                <br>
+                <textarea></textarea>
+               
+        <br>
+        表单字段集
+                <fieldset>
+                    <legend style="width:200px;height: 50px;margin-left:30px;">公司介绍</legend>
+
+                </fieldset>
+        <br>
+        <br>
+
+        <button type="submit">注册</button>
+    </form>
+</body>
+</html>

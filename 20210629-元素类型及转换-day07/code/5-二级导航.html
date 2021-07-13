@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .nav {
+            width: 720px;
+            margin: 0 auto;
+        }
+
+        li {
+            list-style: none;
+            width: 100px;
+            height: 40px;
+            background: pink;
+            text-align: center;
+            line-height: 40px;
+            float: left;
+            border: 1px solid #fff;
+        }
+
+        a {
+            text-decoration: none;
+            color: #fff;
+        }
+        .subnav{
+            /* display: none; */
+            opacity: 0;
+        }
+        .nav li:hover .subnav{
+            /* display: block; */
+            opacity: 1;
+        }
+    </style>
+</head>
+
+<body>
+    <ul class="nav">
+        <li>
+            <a href="#">导航1</a>
+            <ul class="subnav">
+                <li><a href="#">二级1</a></li>
+                <li><a href="#">二级</a></li>
+                <li><a href="#">二级</a></li>
+            </ul>
+        </li>
+        <li>
+            <a href="#">导航2</a>
+            <ul class="subnav">
+                <li><a href="#">二级2</a></li>
+                <li><a href="#">二级</a></li>
+                <li><a href="#">二级</a></li>
+            </ul>
+        </li>
+        <li>
+            <a href="#">导航3</a>
+            <ul class="subnav">
+                <li><a href="#">二级</a></li>
+                <li><a href="#">二级</a></li>
+                <li><a href="#">二级</a></li>
+            </ul>
+        </li>
+        <li>
+            <a href="#">导航3</a>
+            <ul class="subnav">
+                <li><a href="#">二级</a></li>
+                <li><a href="#">二级</a></li>
+                <li><a href="#">二级</a></li>
+            </ul>
+        </li>
+        <li>
+            <a href="#">导航3</a>
+            <ul class="subnav">
+                <li><a href="#">二级</a></li>
+                <li><a href="#">二级</a></li>
+                <li><a href="#">二级</a></li>
+            </ul>
+        </li>
+        <li>
+            <a href="#">导航3</a>
+            <ul class="subnav">
+                <li><a href="#">二级</a></li>
+                <li><a href="#">二级</a></li>
+                <li><a href="#">二级</a></li>
+            </ul>
+        </li>
+    </ul>
+</body>
+
+</html>

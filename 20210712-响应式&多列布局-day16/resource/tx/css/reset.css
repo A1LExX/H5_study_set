@@ -1,0 +1,26 @@
+/*重置样式*/
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+ul, ol{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+	color: #000000;
+}
+img{
+	vertical-align: top;
+	border: none;
+}
+.clear-input{
+	border: none;
+	outline: none;
+}
+.ele-middle{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}

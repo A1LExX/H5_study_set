@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        .wrap{
+            width: 200px;
+            height: 200px;
+            border: 1px solid #000;
+        }
+        .wrap:nth-child(1){
+            background: pink;
+            z-index: 9999;
+            position: relative;
+        }
+        .wrap:nth-child(2){
+            background: skyblue;
+            position: absolute;
+            top: 30px;
+            left: 100px;
+            /* z轴上的堆叠层次 */
+            /* z-index: -3; */
+        }
+
+    
+    
+    </style>
+</head>
+<body>
+    <div class="wrap">1</div>
+    <div class="wrap">2</div>
+</body>
+</html>

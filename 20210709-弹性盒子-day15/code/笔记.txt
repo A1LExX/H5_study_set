@@ -1,0 +1,92 @@
+0.昨日回顾
+    1.渐变：背景
+        线性渐变
+            background:linear-gradient(*deg /to 方向,颜色1 *%,颜色2 *%);
+        径向渐变
+            background:radial-gradient(circle/ellipse, 颜色1 *%,颜色2 *%);
+        重复渐变
+            background:repeating-linear-gradient(red *%,green *%);
+    2.过渡:当想要一个元素的变化，慢慢进行
+        transition:变化的属性 变化的时间 延迟时间  变化的曲线;
+
+    3.动画
+        1.定义动画
+            @keyframes 动画名{
+                0%{
+
+                }
+                *%{
+
+                }
+                100%{
+
+                }
+            }
+
+        2.绑定动画
+            animation: 动画名字 执行时间 延迟时间 变化曲线  次数 方向;
+            animation-play-state:paused;  暂停
+
+1.弹性盒子
+    概念：是一种新的布局方式，让容器有能力控制里面元素的排列方式。
+    专业术语：
+        容器：被设置了display:flex的元素。
+        项目：容器中的子元素就是项目。
+        主轴：元素/项目排列的方向，默认为x轴
+        侧轴：垂直于主轴的方向，默认为y轴
+    
+    0.将元素设置成弹性盒子、容器
+        display:flex;
+    
+    1.容器身上的属性
+        1.决定主轴的方向
+            flex-direction: row（默认值） | column |      row-reverse  | column-reverse ;
+        
+        2.项目在主轴的对齐方式
+            justify-content: center | space-between | space-around | space-evenly | flex-start  | flex-end 
+        
+        3.项目在侧轴上的对齐方式
+            align-items: flex-start | flex-end | center | baseline | stretch
+                stretch 拉伸，是默认值，但是要项目没有设置高度才会有效果。
+        
+        4.项目是否换行
+            flex-wrap: nowrap | wrap ;
+        
+        5.多行元素的排列方式
+            align-content: center | space-between | space-around | space-evenly | flex-start  | flex-end ;
+        
+        6.复合属性（了解）
+            flex-flow: flex-direction flex-wrap;
+    
+    2.项目上的属性
+        1.项目的排列顺序 【元素默认的数字是0，越大越后面】
+            order:数字;
+        
+        2.放大：项目如何分配剩余空间  [元素默认是0,不放大，根据所占份数去分剩余空间]
+            flex-grow:数字;  
+
+        3.缩小：容器空间不够的时候，项目如何挤压排列   [元素默认是1，会缩小，如果不想缩小，设置为0]
+            flex-shrink:数字;
+        
+        4.复合属性
+            flex: flex-grow flex-shrink flex-basis;
+            flex:1;  
+
+        5.定义项目单独的排列方式
+            align-self: auto | flex-start | flex-end | center | baseline | stretch
+
+        6.项目的基本大小  （了解）
+            flex-basis：*px;  [等价于设置项目的宽度]
+
+
+1.  display:flex  设置成弹性盒子
+    flex-direction:row | column;  定义主轴方向
+    justify-content: space-around | space-between | center | space-evenly; 定义在主轴上的排列方式
+    align-items:center ;   定义在侧轴上的排列方式
+    flex-wrap:wrap;   定义是否换行
+    align-content:space-around | space-between | center | space-evenly;  定义多根轴线的排列方式
+
+2.  flex:1;   让元素放大，占据剩余空间
+    align-self:center | flex-start | flex-end ;定义项目单独的排列方式
+    
+

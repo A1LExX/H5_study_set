@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>css3：animation动画</title>
+		<style type="text/css">
+			div{
+				width: 200px;
+				height: 200px;
+				background-color: red;
+				margin: 100px auto;
+			}
+			.round{
+				border-radius: 50%;
+				position: absolute;
+				top: 0;
+				left: 0; 
+				margin: 0;
+				width: 100px;
+				height: 100px;
+			}
+			
+			/*
+			 * animation的使用: vs transition
+			 * transition强调交互，animation强调演出
+			 * */
+			
+			/*1. 设置关键帧动画（设计动画）*/
+			@keyframes scale{
+				from{
+					width: 200px;
+					height: 200px;
+				}
+				to{
+					width: 300px;
+					height: 300px;
+				}
+			}
+			@-moz-keyframes scale{
+				from{
+					width: 200px;
+					height: 200px;
+				}
+				to{
+					width: 300px;
+					height: 300px;
+				}
+			}
+			@-webkit-keyframes scale{
+				from{
+					width: 200px;
+					height: 200px;
+				}
+				to{
+					width: 300px;
+					height: 300px;
+				}
+			}
+			
+			@keyframes scale2{
+				0%{
+					width: 200px;
+					height: 200px;
+				}
+				50%{
+					width: 300px;
+					height: 300px;
+				}
+				100%{
+					width: 200px;
+					height: 200px;
+				}
+			}
+			@-moz-keyframes scale2{
+				0%{
+					width: 200px;
+					height: 200px;
+				}
+				50%{
+					width: 300px;
+					height: 300px;
+				}
+				100%{
+					width: 200px;
+					height: 200px;
+				}
+			}
+			@-webkit-keyframes scale2{
+				0%{
+					width: 200px;
+					height: 200px;
+				}
+				50%{
+					width: 300px;
+					height: 300px;
+				}
+				100%{
+					width: 200px;
+					height: 200px;
+				}
+			}
+			
+			@keyframes loop{
+				0%{
+					left: 0;
+					top: 0;
+					background-color: red;
+				}
+				25%{
+					left: 300px;
+					top: 0;
+					background-color: orange;
+				}
+				50%{
+					left: 300px;
+					top: 200px;
+					background-color: blue;
+				}
+				75%{
+					left: 0px;
+					top: 200px;
+					background-color: green;
+				}
+				100%{
+					left: 0;
+					top: 0;
+					background-color: red;
+				}
+			}
+			
+			/*2. 添加动画播放效果*/
+			div{
+				/*animation动画: scale 1s;
+				-moz-animation动画: scale 1s;
+				-webkit-animation动画: scale 1s;*/
+				
+				animation-name: loop;
+				-moz-animation-name: loop;
+				-webkit-animation-name: loop;
+				
+				animation-duration: 7s;/*单位: s，ms*/
+				-moz-animation-duration: 7s;
+				-webkit-animation-duration: 7s;
+				
+				animation-timing-function: cubic-bezier(0,0,0,0);
+				-moz-animation-timing-function: cubic-bezier(0,0,0,0);
+				-webkit-animation-timing-function: cubic-bezier(0,0,0,0);
+				
+				/*animation动画-delay: 2s;
+				-moz-animation动画-delay: 2s;
+				-webkit-animation动画-delay: 2s;*/
+				
+				/*animation动画-direction: reverse;
+				-moz-animation动画-direction: reverse;
+				-webkit-animation动画-direction: reverse;*/
+				
+				animation-iteration-count: infinite;/*infinite无限，循环播放*/
+				-moz-animation-iteration-count: infinite;
+				-webkit-animation-iteration-count: infinite;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="round"></div>
+	</body>
+</html>

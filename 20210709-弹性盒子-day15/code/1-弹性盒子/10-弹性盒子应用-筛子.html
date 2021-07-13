@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            display: flex;
+        }
+
+        .wrap {
+            width: 100px;
+            height: 100px;
+            padding: 10px;
+            border-radius: 5px;
+            border: 2px solid #000;
+            margin: 20px;
+            display: flex;
+        }
+
+        .wrap .box {
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+            background: red;
+            box-shadow: 2px 2px 2px #000 inset;
+        }
+
+        .wrap:nth-child(1) {
+            /* 设置主轴上的排列 */
+            justify-content: center;
+            /* 再侧轴上的排列 */
+            align-items: center;
+
+        }
+
+        .wrap:nth-child(2) {
+            justify-content: space-between;
+        }
+
+        .wrap:nth-child(2) .box:nth-child(2) {
+            align-self: flex-end;
+        }
+
+        /* 3 */
+        .wrap:nth-child(3) {
+            justify-content: space-between;
+        }
+
+        .wrap:nth-child(3) .box:nth-child(2) {
+            align-self: center;
+        }
+
+        .wrap:nth-child(3) .box:nth-child(3) {
+            align-self: flex-end;
+        }
+
+        /* 4 */
+        .wrap:nth-child(4) {
+            /* 改变主轴方向 */
+            flex-direction: column;
+            /* 设置项目再主轴上的排列方式 */
+            justify-content: space-between;
+        }
+
+        .wrap:nth-child(4) .con {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        /* 5 */
+        .wrap:nth-child(5) {
+            /* 改变主轴方向 */
+            flex-direction: column;
+            /* 设置项目再主轴上的排列方式 */
+            justify-content: space-between;
+        }
+
+        .wrap:nth-child(5) .con {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .wrap:nth-child(5) .con:nth-child(2) {
+            justify-content: center;
+        }
+        /* 6 */
+        .wrap:nth-child(6) {
+            /* 改变主轴方向 */
+            flex-direction: column;
+            /* 设置项目再主轴上的排列方式 */
+            justify-content: space-between;
+        }
+
+        .wrap:nth-child(6) .con {
+            display: flex;
+            justify-content: space-between;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- 1 -->
+    <div class="wrap">
+        <div class="box"></div>
+    </div>
+    <!-- 2 -->
+    <div class="wrap">
+        <div class="box"></div>
+        <div class="box"></div>
+    </div>
+    <div class="wrap">
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+    </div>
+    <!-- 4 -->
+    <div class="wrap">
+        <div class="con">
+            <div class="box"></div>
+            <div class="box"></div>
+        </div>
+        <div class="con">
+            <div class="box"></div>
+            <div class="box"></div>
+        </div>
+    </div>
+    <!-- 5 -->
+    <div class="wrap">
+        <div class="con">
+            <div class="box"></div>
+            <div class="box"></div>
+        </div>
+        <div class="con">
+            <div class="box"></div>
+        </div>
+        <div class="con">
+            <div class="box"></div>
+            <div class="box"></div>
+        </div>
+    </div>
+    <!-- 6 -->
+    <div class="wrap">
+        <div class="con">
+            <div class="box"></div>
+            <div class="box"></div>
+        </div>
+        <div class="con">
+            <div class="box"></div>
+            <div class="box"></div>
+        </div>
+        <div class="con">
+            <div class="box"></div>
+            <div class="box"></div>
+        </div>
+    </div>
+</body>
+
+</html>

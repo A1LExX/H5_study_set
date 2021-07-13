@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<style type="text/css">
+			* {
+				margin: 0;
+				padding: 0;
+			}
+
+			body,
+			html {
+				height: 100%;
+			}
+
+			body {
+				display: flex;
+				flex-direction: column;
+				justify-content: space-between;
+			}
+
+			.header {
+				height: 30px;
+				background: red;
+			}
+
+			.content {
+				background: yellow;
+				flex: 1;
+				overflow: auto;
+			}
+
+			.content div {
+				height: 3000px;
+			}
+
+			.footer {
+				height: 60px;
+				background: green;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="header">头部</div>
+		<div class="content">
+			<div>内容区</div>
+		</div>
+		<div class="footer">尾部</div>
+	</body>
+</html>

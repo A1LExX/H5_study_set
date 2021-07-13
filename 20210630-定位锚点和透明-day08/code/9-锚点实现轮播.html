@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        .wrap {
+            width: 400px;
+            height: 300px;
+            border: 1px solid #000;
+            position: relative;
+
+        }
+        .floor{
+            width: 400px;
+            height: 300px;
+            overflow: hidden;
+        }
+        .wrap img {
+            width: 400px;
+            height: 300px;
+        }
+        .fixed {
+            position: absolute;
+            bottom: 10px;
+            right: 10px;
+        }
+        .fixed a{
+            width: 30px;
+            height: 30px;
+            background: pink;
+            display: block;
+            float: left;
+            /* font-size: 80px; */
+            /* opacity: 0.5; */
+            filter: alpha(opacity=0);
+            opacity: 0;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="wrap">
+        <div class="floor">
+            <div id="box1"><img src="images/img04.jpg" alt=""></div>
+            <div id="box2"><img src="images/img05.jpg" alt=""></div>
+            <div id="box3"><img src="images/img06.jpg" alt=""></div>
+            <div id="box4"><img src="images/img07.jpg" alt=""></div>
+        </div>
+        <div class="fixed">
+            <a href="#box1">1</a>
+            <a href="#box2">2</a>
+            <a href="#box3">3</a>
+            <a href="#box4">4</a>
+        </div>
+
+
+    </div>
+
+
+
+
+
+    <!-- <div class="content">
+        <div id="box1">1</div>
+        <div id="box2">2</div>
+        <div id="box3">3</div>
+        <div id="box4">4</div>
+    </div>
+
+    <div class="fixed">
+        <a href="#box1">跳转到1</a>
+        <a href="#box2">跳转到2</a>
+        <a href="#box3">跳转到3</a>
+        <a href="#box4">跳转到4</a>
+    </div> -->
+
+</body>
+
+</html>

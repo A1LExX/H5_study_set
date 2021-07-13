@@ -1,0 +1,114 @@
+0.昨日回顾
+    属性
+        table-layout:fixed;  必须配合表格宽度
+        border-collapse:collapse
+    
+1.表单
+    组成：表单标签 + 表单域 + 表单按钮
+        表单标签： form--负责数据提交的地址和方式
+        表单域： 数据填入的部分。 文本框、密码框、
+        表单按钮： 提交、重置按钮、普通按钮
+
+    1.表单按钮  
+        语法：
+            <button type='submit | reset | button'>按钮上显示的文字</button>
+            或者：  <input type=' submit | reset | button '  value='按钮上显示的文字' >
+
+            推荐使用button实现按钮。
+    
+    2.input的其他type属性值
+        语法：  
+            <input type='text | password | radio | checkbox | file | hidden '>
+                file是文件
+                hidden是隐藏域：提交不想被用户看到的数据的时候。 【用value设置要提交的数据】
+                    <input type='hidden' value='提交的数据' name='名字'>
+
+    3.其他标签
+        1.label标签
+            语法1：
+                <input id='id名'>
+                <label for='对应选项的id名'>要关联的内容 </label> 
+            
+            语法2：
+                <label> <input> 要关联的内容  </label>
+        2.下拉列表
+            <select name=''>
+                <option value='值'>选项的值</option>
+                <option selected>选项的值</option>
+            </select>
+
+            注意： 提交到后端的数据默认是value的值，如果没有就提交option里面的内容
+                  selected代表默认选中该项
+        
+        3.文本域
+            <textarea name=''></textarea> 
+        
+        4.表单字段集  
+            <fieldset>
+                <legend></legend>
+            </fieldset>
+
+
+2.BFC概念及应用
+    BFC概念：是块级格式化上下文。是一种规范，规定了元素的排列方式，不同的bfc里面的元素的排列是互不影响的。
+    创建bfc的情况：
+        1.浮动
+        2.overflow 
+        3.display: inline-block | flex ;
+        4.position: fixed | absolute ;
+    应用：
+        1.解决margin的粘连问题（父子）
+            方式1： 给父元素设置透明边框  transparent
+            方式2： 用padding实现  【记得修改高度】
+            方式3： 给父元素设置 overflow:hidden;  [所有让父元素或者子元素触发bfc的代码，都能解决粘连]
+        
+        2.margin的塌陷问题  （兄弟）
+            方式： 在一个兄弟身上设置足够的间隔
+        
+        3.清除浮动
+        4.布局  【左边固定，右边自适应  /  左中右布局】
+
+3.兼容性    
+    概念：同一个在不同的浏览器、版本里面效果不一致。
+     代表浏览器     浏览器内核         
+       欧朋           presto        
+       IE            trident
+       火狐           gecko
+       谷歌           webkit
+    常见的兼容性问题：
+        1. 图片3px问题      解决方案：图片设置vertical-align 或者 转换为块级元素
+        2. 行内块元素之间默认的间隔    解决方案： 代码之间不要有空格  或者  加浮动
+        3. 图片外面有链接，图片在低版本浏览器里面会有边框    解决方案：设置边框粗度为0
+        4. png24在ie6里面不是透明的。    解决方案： 使用png8 或者 gif
+        5. 表单元素垂直方向没有对齐   解决方案： 使用浮动 或者 vertical-align:top;
+        6. 鼠标移入，实现手型     解决：  cursor:hand； 和 cursor：pointer; 一起
+        
+
+
+作业：
+    1.完成资源里面两张图的效果
+    2.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

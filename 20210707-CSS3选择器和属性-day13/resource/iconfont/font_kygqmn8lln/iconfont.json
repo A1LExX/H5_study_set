@@ -1,0 +1,44 @@
+{
+  "id": "",
+  "name": "",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "21598358",
+      "name": "喜欢",
+      "font_class": "xihuan",
+      "unicode": "e640",
+      "unicode_decimal": 58944
+    },
+    {
+      "icon_id": "21598359",
+      "name": "推荐人",
+      "font_class": "tuijianren",
+      "unicode": "e641",
+      "unicode_decimal": 58945
+    },
+    {
+      "icon_id": "21598360",
+      "name": "密码不可见",
+      "font_class": "mimabukejian",
+      "unicode": "e63f",
+      "unicode_decimal": 58943
+    },
+    {
+      "icon_id": "21598361",
+      "name": "修改密码",
+      "font_class": "xiugaimima",
+      "unicode": "e642",
+      "unicode_decimal": 58946
+    },
+    {
+      "icon_id": "21598362",
+      "name": "我的收藏",
+      "font_class": "wodeshoucang",
+      "unicode": "e643",
+      "unicode_decimal": 58947
+    }
+  ]
+}

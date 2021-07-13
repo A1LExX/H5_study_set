@@ -1,0 +1,90 @@
+1.昨日回顾
+    1.定位：将一个元素放在指定的位置上，就用定位。
+    语法：
+        设置定位方式： 
+            position: fixed | relative | absolute | static | sticky
+        设置坐标：
+            left :*px | right:*px;
+            top:*px | bottom:*px;
+    
+        1. fixed:固定定位：基于浏览器窗口。
+            盒子完全居中于未知大小的盒子：
+                1.  position:fixed | absolute;
+                    top:0;
+                    left:0;
+                    right:0;
+                    bottom:0;
+                    margin:auto;
+                
+                2. position:fixed | absolute;
+                    top：50%；
+                    margin-top:-高度/2  px;
+                    left:50%;
+                    margin-left:-宽度/2 px；
+        2.relative:相对定位：基于元素本身的位置
+        3.absolute：绝对定位： 基于最近的被设置非静态定位的上级元素进行定位，如果上级没有，就基于浏览器的第一屏进行定位
+        4.sticky:粘性定位
+        
+        会脱离文档流的：fixed,absolute 
+        不会脱离的：relative
+    2.锚点链接
+        <div id='id名'>要跳转到的区域</div>
+        <a href='#id名'>链接</a>
+    
+    3.透明
+        opacity:数值；   【0-1】
+        filter:alpha(opacity=数值)  【0-100】
+
+        只是背景透明  background:rgba(R,G,B,透明度)
+
+2.宽高自适应
+    概念：根据设备、分辨率不同，有不一样的排版布局。
+    1.宽度自适应
+        1.不设置宽度
+        2.使用百分比
+        3.使用 min-width 或者 max-width;
+            min-width:*px;   设置最小宽度
+            max-width:*px;   设置最大宽度
+
+    2.高度自适应
+        1.不设置高度
+            注意：如果子元素有浮动，会高度塌陷
+            清除浮动：
+                1.给浮动元素的父亲添加 overflow:hidden;
+                2.给浮动元素添加一个空的兄弟元素div,给兄弟一个类名clear,设置样式 clear:both;
+
+                    浮动元素
+                    <div class='clear'></div>
+                    css中  .clear{clear:both;}
+
+                3.给浮动元素的父亲添加类名 cleafix,设置样式 
+                    .clearfix:after{
+                        content:'';
+                        display:block;
+                        height:0;
+                        clear:both;
+                    }
+            项目中使用方式3
+        
+            补充：
+                伪类和伪元素的区别： 【面试题】
+                    概念上：伪类是一种临时状态，只有状态被触发的时候才会生效。
+                           伪元素是一个虚拟的dom节点，是一个假的元素
+                    写法上：伪类使用单冒号，伪元素使用双冒号。
+                          
+                          :after，::after 只是版本区别，都是伪元素。
+                伪元素：
+                    e:after{ content:'   '; }   在e元素的内容后面添加内容
+                    e:before{ content:'   '; }   在e元素的内容前面添加内容
+                    e::selection{  }      给e元素中选中的文字设置样式
+
+        2.设置百分比
+            注意：html和body没有内容的情况下，高度为0；
+        3.设置最小高度和最大高度
+            min-height:*px;
+            max-height:*px;
+
+
+
+
+

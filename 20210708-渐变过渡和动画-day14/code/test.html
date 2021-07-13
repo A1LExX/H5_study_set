@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        .wrap{
+            width: 400px;
+            height: 400px;
+            display: flex;
+            margin-bottom: 20px;
+            border: 1px solid red;
+        }
+        .wrap>div{
+            width: 100px;
+            /* height: 100px; */
+            border: 1px solid #000;
+        }
+        .wrap:nth-child(1){
+            /* 设置主轴方向 */
+            /* flex-direction: column;  */
+            /* flex-direction: row-reverse;   类似于右浮动 */
+            /* flex-direction: row-reverse;  */
+
+            /* 设置主轴的排列方式 */
+            /* justify-content: space-evenly; */
+            /* 设置侧轴的排列方式 */
+            /* align-items:stretch; */
+            /* flex-wrap:  wrap-reverse; */
+            /* align-items: center; */
+            /* flex-flow:  row wrap; */
+            /* align-content: space-evenly; */
+        }
+        .wrap div:nth-child(2){
+            /* flex-basis: 200px; */
+            /* align-self: flex-end; */
+            /* flex-shrink: 0; */
+        }
+        /* .wrap div:nth-child(3){
+            align-self: center;
+        }
+        .wrap div:nth-child(1){
+            align-self: stretch;
+        } */
+       .header{
+           height: 50px;
+           border: 1px solid #000;
+           display: flex;
+        }
+        .left{
+            width: 50px;
+            height: 50px;
+            background: pink;
+        }
+        .right{
+            height: 50px;
+            flex: 1;
+            background: skyblue;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="left">1</div>
+        <div class="right"></div>
+    </div>
+    <!-- 
+        1.弹性盒子：
+
+        专业术语：
+            容器： 被设置了display:flex的元素
+            项目： 容器的子元素
+            主轴： 默认是水平方向 x轴
+            侧轴： 默认是垂直方向 y轴
+        
+        1.容器上的属性[所有的stretch属性值，只有没有设置宽度或者高度的时候，才会存在着拉伸哦！]
+            1.设置成容器
+                display: flex;
+            
+            2.设置主轴的方向
+                flex-dirction: row | column | row-reverse | column-reverse;
+            
+            3.设置项目在主轴的排列方式
+                justify-content: center | flex-end | flex-start | space-between | space-around | space-evenly;
+            
+            4.设置项目在侧轴的排列方式
+                align-items: center | flex-end | flex-start | baseline |  stretch[不设置高度，默认拉伸]
+            
+            5.设置元素是否换行 【默认不换行，会压缩】
+                flex-wrap: wrap |nowrap |wrap-reverse
+            
+            6.当有多个侧轴的时候，元素在侧轴的对齐方式
+                align-content: flex-start | flex-end | center | space-between | space-around | stretch；
+                如果盒子换行了，那么 空白会自动均分在行与行之间，如果要求改变这些元素之间的间隔，就可以通过align-ceontent;
+
+            7.flex-flow:是一个组合属性，flex-direction属性和flex-wrap
+        
+        2.项目上的属性
+            1.项目的排列顺序
+                order:数字；  数字越小越靠前,默认为0
+            
+            2.项目的单独的排列顺序
+                align-self:flex-start | flex-end | baseline | center | stretch
+            
+            3.分配剩余的空间:默认为0，有空间不放大
+                flex-grow:数字;
+                如果有空间，多个之和进行均分，按照份数分配
+            
+            4.空间不够，缩小的比例：默认为1，即会缩小，如果不想被缩小就设置为0就可以
+                flex-shrink:数字；
+            
+            5.flex-basis=width；浏览器根据该属性去判断是否存在剩余空间；
+
+            6.flex:复合属性，是flex-grow flex-shrink flex-basis的简写，默认是0 1 auto;
+                flex:1;其实就是 flex:1 1 auto;
+
+     -->
+     <div class="wrap">
+         <div>1</div>
+         <div>2</div>
+         <div>3</div>
+         <div>3</div>
+         <div>3</div>
+         <div>3</div>
+         <div>3</div>
+        
+     </div>
+</body>
+</html>

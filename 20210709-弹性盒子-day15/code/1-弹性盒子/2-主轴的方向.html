@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        .wrap {
+            width: 500px;
+            background: pink;
+            display: flex;
+            margin-bottom: 20px;
+           
+        }
+        .wrap:nth-child(1){
+            /* 设置主轴方向 */
+            flex-direction: row;
+        }
+        .wrap:nth-child(2){
+            /* 设置主轴方向 */
+            flex-direction: column;
+        }
+        .wrap:nth-child(3){
+            /* 设置主轴方向 */
+            flex-direction: row-reverse;
+        }
+        .wrap:nth-child(4){
+            /* 设置主轴方向 */
+            flex-direction: column-reverse;
+        }
+        .wrap>div {
+            width: 100px;
+            height: 50px;
+            background: skyblue;
+            border: 1px solid #000;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="wrap">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+    </div>
+    <div class="wrap">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+    </div>
+    <div class="wrap">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+    </div>
+    <div class="wrap">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+    </div>
+    <div class="wrap">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+    </div>
+</body>
+
+</html>

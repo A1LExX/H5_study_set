@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .wrap{
+            margin: 100px;
+            width: 400px;
+            height: 400px;
+            position: relative;
+            transform-style: preserve-3d;
+            transform: rotateX(-26deg) rotateY(50deg);
+        }
+        .wrap>div{
+            width: 200px;
+            height: 300px;
+            background: skyblue;
+            border: 1px solid #000;
+            position: absolute;
+
+        }
+        .wrap div:nth-child(1){
+            transform-origin:  bottom;
+            /* transform:rotate ; */
+            transform:rotateY(-60deg)  translateZ(200px);
+        }
+        .wrap div:nth-child(2){
+            transform-origin:  bottom;
+            /* transform:rotate ; */
+            transform: rotateY(60deg) translateZ(200px);
+        }
+        .wrap div:nth-child(3){
+            transform-origin:  bottom;
+            /* transform:rotate ; */
+            transform: rotateY(120deg) translateZ(200px);
+        }
+        .wrap div:nth-child(4){
+            transform-origin:  bottom;
+            /* transform:rotate ; */
+            transform: rotateY(180deg) translateZ(200px);
+        }
+        .wrap div:nth-child(5){
+            transform-origin:  bottom;
+            /* transform:rotate ; */
+            transform: rotateY(240deg) translateZ(200px);
+        }
+        .wrap div:nth-child(6){
+            transform-origin:  bottom;
+            /* transform:rotate ; */
+            transform: rotateY(360deg) translateZ(200px);
+        }
+
+    
+    </style>
+</head>
+<body>
+    <div class="wrap">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+        <div>5</div>
+        <div>6</div>
+    </div>
+</body>
+</html>

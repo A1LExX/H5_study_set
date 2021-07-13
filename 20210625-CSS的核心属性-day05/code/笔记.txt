@@ -49,6 +49,23 @@
 
 3.继承：有上下级关系的元素之间，上级元素的样式被下级元素拥有，这就是继承。
     文本和列表相关的属性可以被继承。
- 
 
+4.背景相关的属性
+    1.背景颜色  background-color:颜色；
+    2.背景图片  background-image:url(图片路径)
+    3.背景平铺  background-repeat:no-repeat;  //设置背景图不重复
+    4.背景起始位置  background-position:x的坐标  y的坐标;   //也可以是对应方向的英文：left right center top bottom;
+    5.背景大小  background-size:宽度  高度;   
+    6.背景是否固定  background-attachment:fixed;
 
+    7.背景的复合属性  background:属性值;
+
+    精灵图的步骤：
+        1.实现一个指定大小的盒子
+        2.设置精灵图为背景图
+        3.通过background-position调整背景图的位置。
+
+        优缺点：
+            性能好
+            命名少
+            步骤繁琐，增删图标麻烦。
