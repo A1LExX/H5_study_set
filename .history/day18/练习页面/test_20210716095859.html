@@ -9,15 +9,30 @@
         html {
             width: 100%;
             height: 100%;
+            display: flex;
+            flex-direction: column;
         }
-        
+
+        .top {
+            height: 100px;
+            background: red;
+        }
+
+        .down{
+            flex: 1;
+            display: flex;
+        }
+
+
     </style>
 </head>
 
 <body>
     <div class="top"></div>
+    <div class="down">
         <div class="left"></div>
         <div class="right"></div>
+    </div>
 
 </body>
 
