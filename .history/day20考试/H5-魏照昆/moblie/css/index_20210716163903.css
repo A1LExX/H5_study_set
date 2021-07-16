@@ -1,0 +1,28 @@
+/**
+ * @author [Alex Wei]
+ * @email [w2262196@outlook.com]
+ * @create date 2021-07-16 16:33:28
+ * @modify date 2021-07-16 16:39:03
+ * @desc [description]
+ */
+body, html{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+#top{
+    height: 0.9rem;
+    background: chartreuse;
+}
+
+#mid{
+    flex: 1;
+    background: cornflowerblue;
+    overflow: scroll;
+}
+
+#down{
+    height: 100px;
+}
+
