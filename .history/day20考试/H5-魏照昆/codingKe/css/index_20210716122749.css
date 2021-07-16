@@ -1,0 +1,34 @@
+/* 定义版心 */
+.container{
+    min-width: 1210px;
+    margin: 0 auto;
+}
+
+/* 消除a的默认样式 */
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+a:hover{
+    text-decoration: none;
+}
+
+/* 页眉 */
+/* logo */
+#header{
+    width: 1210px;
+    height: 80px;
+}
+
+#header .logo{
+    width: 160px;
+    height: 40px;
+    margin-top: 20px;
+}
+
+#header .logo img{
+    width: 100%;
+    height: 100%;
+}
+

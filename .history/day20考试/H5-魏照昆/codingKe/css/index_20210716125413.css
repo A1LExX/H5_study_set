@@ -1,0 +1,100 @@
+/* 定义版心 */
+.container{
+    min-width: 1210px;
+    margin: 0 auto;
+}
+
+/* 消除a的默认样式 */
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+a:hover{
+    text-decoration: none;
+}
+
+/* 页眉 */
+/* logo */
+#header{
+    width: 1210px;
+    height: 80px;
+}
+
+#header .logo{
+    width: 160px;
+    height: 40px;
+    margin-top: 20px;
+    float: left;
+}
+
+#header .logo img{
+    width: 100%;
+    height: 100%;
+}
+
+#header .nav{
+    margin-left: 20px;
+    width: 425px;
+    float: left;
+    margin-top: 20px;
+    height: 40px;
+    line-height: 40px;
+}
+
+.nav ul{
+    height: 40px;
+}
+
+.nav ul li{
+    float: left;
+    margin-left: 15px;
+    margin-right: 15px;
+    /* width: 45px; */
+    height: 20px;
+    font-size: 16px;
+}
+
+/* 搜索 */
+.search{
+    float: right;
+    margin-top: 20px;
+}
+
+.search .searchDiv{
+    width: 280px;
+    height: 28px;
+    position: relative;
+}
+
+.searchDiv input{
+    width: 280px;
+    height: 28px;
+    border: none;
+    border-bottom: 2px solid #dadde1;
+}
+
+.searchDiv button{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    height: 28px;
+    border: none;
+    background: white;
+}
+
+.python{
+    position: absolute;
+    right:130px;
+    bottom: 5px;
+}
+
+.html5{
+    position: absolute;
+    right: 10px;
+    bottom: 0;
+}
+
+
+
+

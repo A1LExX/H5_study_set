@@ -1,0 +1,449 @@
+/* 定义版心 */
+.container{
+    min-width: 1210px;
+    margin: 0 auto;
+}
+
+/* 消除a的默认样式 */
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+a:hover{
+    text-decoration: none;
+}
+
+/* 页眉 */
+/* logo */
+#header{
+    width: 1210px;
+    height: 80px;
+}
+
+#header .logo{
+    width: 160px;
+    height: 40px;
+    margin-top: 20px;
+    float: left;
+}
+
+#header .logo img{
+    width: 100%;
+    height: 100%;
+}
+
+#header .nav{
+    margin-left: 20px;
+    width: 425px;
+    float: left;
+    margin-top: 20px;
+    height: 40px;
+    line-height: 40px;
+}
+
+.nav ul{
+    height: 40px;
+}
+
+.nav ul li{
+    float: left;
+    margin-left: 15px;
+    margin-right: 15px;
+    /* width: 45px; */
+    height: 20px;
+    font-size: 16px;
+}
+
+/* 搜索 */
+.search{
+    float: right;
+    margin-top: 20px;
+}
+
+.search .searchDiv{
+    width: 280px;
+    height: 28px;
+    position: relative;
+    float: left;
+}
+
+.searchDiv input{
+    width: 280px;
+    height: 28px;
+    border: none;
+    border-bottom: 2px solid #dadde1;
+}
+
+.searchDiv button{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    height: 28px;
+    border: none;
+    background: white;
+}
+
+.python{
+    position: absolute;
+    right:130px;
+    bottom: 5px;
+    background: #f2f2f2;
+}
+
+.html5{
+    position: absolute;
+    right: 85px;
+    bottom: 5px;
+    background: #f2f2f2;
+}
+
+.search a{
+    display: block;
+    float: left;
+    margin: 10px 10px 0;
+}
+
+/* 轮播图 */
+#banner{
+    width: 1210px;
+    overflow: hidden;
+    padding-top: 34px;
+    background: #f5f5f5;
+    border-radius: 10px 10px 10px 10px;
+}
+
+.back{
+    background: #f5f5f5;
+}
+
+.left{
+    width: 210px;
+    height: 445px;
+    background: #2b333b;
+    color: white;
+    border-radius: 5px 0 0 5px;
+    float: left;
+}
+
+.left ul{
+    margin: 20px;
+    padding-top: 25px;
+}
+
+.left li{
+    width: 175px;
+    height: 45px;
+    font-size: 14px;
+}
+
+.left img{
+    vertical-align: sub;
+}
+
+.left span{
+    float: right;
+}
+
+.right{
+    width: 1000px;
+    height: 445px;
+    float: left;
+    border-radius: 0 5px 5px 0;
+}
+
+.right img{
+    width: 100%;
+    height: 100%;
+}
+/* 内容分类 */
+#contentClass{
+    width: 1210px;
+}
+
+#contentClass .title{
+    width: 1210px;
+    text-align: center;
+    line-height: 80px;
+    font-size: 18px;
+}
+
+.block{
+    width: 1210px;
+}
+
+.block div{
+    width: 220px;
+    height: 284px;
+    border-radius: 10px;
+    box-shadow: 3px 3px #e5e5e5;
+    background: white;
+    float: left;
+    margin-bottom: 38px;
+    margin-right: 27px;
+}
+
+.block div:last-child{
+    margin-right: 0px;
+}
+
+.block div div:first-child{
+    width: 220px;
+    height: 114px;
+    box-shadow: 0 0 0 0;
+}
+
+.block div div:first-child img{
+    width: 100%;
+    height: 100%;
+}
+
+.change{
+    width: 100px !important;
+    height: 30px !important;
+    background: #f5f5f5 !important;
+    border-radius: 10px !important;
+    box-shadow: 0 0 0 0 !important;
+    color: #8e8e8e !important;
+    margin-left: 60px;
+    text-align: center;
+    line-height: 30px;
+}
+
+.firP{
+    font-size: 13px;
+    margin-top: 28px;
+    text-align: center;
+    color: #323233;
+}
+
+.secP{
+    font-size: 12px;
+    margin-top: 12px;
+    text-align: center;
+    color: #9e919c;
+}
+
+.lastP{
+    font-size: 15px;
+    margin-top: 14px;
+    margin-bottom: 8px;
+    text-align: center;
+    color: #35b558;
+}
+
+/* 热门推荐 */
+#hotMain{
+    width: 1210px;
+}
+
+#hotMain .title{
+    width: 1210px;
+    text-align: center;
+    line-height: 80px;
+    font-size: 18px;
+}
+
+.littleNav{
+    float: left;
+}
+
+.littleNav li{
+    float: left;
+    width: 60px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+}
+
+.littleNav li:first-child{
+    color: #35b558;
+    border-bottom: 1px solid #35b558;
+}
+
+.rightNav{
+    float: right;
+}
+
+.dList>div{
+    width: 218px;
+    height: 190px;
+    border-radius: 10px;
+    float: left;
+    margin-right: 30px;
+    margin-bottom: 60px;
+}
+
+.dList>div:last-child{
+    margin-right: 0;
+}
+
+.dList>div dt{
+    width: 218px;
+    height: 136px;
+    border-radius: 10px;
+}
+
+.dList>div dt img{
+    width: 100%;
+    height: 100%;
+}
+
+.dList>div p{
+    font-size: 18px;
+}
+
+.price{
+    color: #ff8900;
+}
+
+.hotMid{
+    height: 60px;
+}
+.dPf{
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+/* 广告条 */
+#ad{
+    width: 1210px;
+    height: 100px;
+    margin-bottom: 22px;
+}
+
+#ad img{
+    width: 100%;
+    height: 100%;
+}
+
+/* 新闻 */
+#news{
+    width: 1210px;
+}
+
+#news>div{
+    width: 379px;
+    height: 476px;
+    background: white;
+    float: left;
+    margin-top: 38px;
+    margin-right: 36px;
+    margin-bottom: 40px;
+}
+
+#news>div:last-child{
+    margin-right: 0;
+}
+
+.outside{
+    background: #f5f5f5;
+}
+
+.top{
+    height: 60px;
+}
+
+.spanL1{
+    width: 100px;
+    height: 40px;
+    line-height: 40px;
+    background: #35b558;
+    color: white;
+    float: left;
+    text-align: center;
+    border-radius: 15px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.spanR1{
+    width: 100px;
+    height: 40px;
+    line-height: 40px;
+    float: right;
+    margin-top: 20px;
+    margin-right: 20px;
+    text-align: right;
+}
+
+.story{
+    margin-top: 20px;
+    margin-left: 14px;
+    width: 350px;
+    height: 174px;
+    background: #f8fafc;
+    overflow: hidden;
+}
+
+.lStory{
+    margin-left: 30px ;
+    margin-top: 20px;
+    width: 63px;
+    height: 63px;
+    float: left;
+}
+
+.rStory{
+    float: left;
+    height: 63px;
+    margin-left: 40px;
+    margin-top: 40px;
+}
+
+.rStory span:nth-child(2){
+    display: block;
+}
+
+.words{
+    float: left;
+    width: 250px;
+    height: 52px;
+    font-size: 17px;
+    overflow : hidden;
+    margin-left: 55px;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+
+.spanL2{
+    background: #c89381;
+}
+
+.page1{
+    margin-left: 10px;
+    font-size: 18px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+.newsDetails{
+    margin-left: 10px;
+    width: 352px;
+    background: #f8fafc;
+    margin-bottom: 20px;
+}
+
+.spanL3{
+    background: #78aabf;
+}
+
+.video{
+    margin-left: 20px;
+    margin-top: 20px;
+    width: 160px;
+    height: 88px;
+    float: left;
+}
+
+.video img{
+    width: 100%;
+    height: 100%;
+}
+
+.videoTitle{
+    float: left;
+}

@@ -1,0 +1,251 @@
+<!--
+@author [Alex Wei]
+@email [w2262196@outlook.com]
+@create date 2021-07-16 12:08:40
+@modify date 2021-07-16 15:46:54
+@desc [description]
+-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- 引入重置样式表 -->
+    <link rel="stylesheet" href="./css/reset.css">
+    <!-- 引入当前页面样式表 -->
+    <link rel="stylesheet" href="./css/index.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- 页眉 -->
+    <div id="header" class="container clearfix">
+        <!-- logo -->
+        <div class="logo"><a href="#"><img src="./img/logo.png" alt="扣丁学堂" title="扣丁学堂"></a></div>
+        <div class="nav">
+            <ul>
+                <li><a href="#">就业班</a></li>
+                <li><a href="#">免费课</a></li>
+                <li><a href="#">微视频</a></li>
+                <li><a href="#">俱乐部</a></li>
+                <li><a href="#">精品直播</a></li>
+            </ul>
+        </div>
+        <div class="search">
+            <form action="#" method="get">
+                <div class="searchDiv">
+                    <input type="text" name="keywords" placeholder="搜索你想要的课程">
+                    <button type="submit"><img src="./img/search.png" alt=""></button>
+                    <div class="python">python</div>
+                    <div class="html5">html5</div>
+                </div>
+                <a href="#">小程序</a>
+                <a href="#"><img src="./img/xiaoxi.png" alt=""></a>
+                <a href="#">注册</a>
+                <a href="#">登陆</a>
+            </form>
+        </div>
+    </div>
+    <!-- 分类&轮播图-->
+    <!-- 外部背景 -->
+    <div class="back">
+        <div id="banner" class="container">
+            <div class="left">
+                <ul>
+                    <li><a href="#">前端开发<span><img src="./img/leftx.png" alt=""></span></a></li>
+                    <li><a href="#">编程语言<span><img src="./img/leftx.png" alt=""></span></a></li>
+                    <li><a href="#">云计算&大数据<span><img src="./img/leftx.png" alt=""></span></a></li>
+                    <li><a href="#">软件测试<span><img src="./img/leftx.png" alt=""></span></a></li>
+                    <li><a href="#">区域链开发<span><img src="./img/leftx.png" alt=""></span></a></li>
+                    <li><a href="#">UI设计&电商设计<span><img src="./img/leftx.png" alt=""></span></a></li>
+                    <li><a href="#">Unity游戏开发<span><img src="./img/leftx.png" alt=""></span></a></li>
+                    <li><a href="#">移动开发<span><img src="./img/leftx.png" alt=""></span></a></li>
+                    <li><a href="#">其他课程<span><img src="./img/leftx.png" alt=""></span></a></li>
+                </ul>
+            </div>
+            <div class="right">
+                <a href="#"><img src="./img/banner.jpg" alt=""></a>
+            </div>
+        </div>
+
+        <!-- 内容分类 -->
+        <div id="contentClass" class="container">
+            <p class="title">就业直通车</p>
+            <div class="block clearfix">
+                <div>
+                    <div><img src="./img/emp_car_img1.png" alt=""></div>
+                    <p class="firP">Linux云计算+Python运维开发</p>
+                    <p class="secP">Linux运维就业班</p>
+                    <p class="lastP">月薪: 12-15K</p>
+                    <div class="change">学习人数129人</div>
+                </div>
+                <div>
+                    <div><img src="./img/emp_car_img2.png" alt=""></div>
+                    <p class="firP">HTML5大前端开发</p>
+                    <p class="secP">Html前端就业班</p>
+                    <p class="lastP">月薪: 10-15K</p>
+                    <div class="change">学习人数190人</div>
+                </div>
+                <div>
+                    <div><img src="./img/emp_car_img3.png" alt=""></div>
+                    <p class="firP">Python全栈+人工智能开发</p>
+                    <p class="secP">Python人工智能就业班</p>
+                    <p class="lastP">月薪: 13-15K</p>
+                    <div class="change">学习人数213人</div>
+                </div>
+                <div>
+                    <div><img src="./img/emp_car_img4.png" alt=""></div>
+                    <p class="firP">JavaEE+互联网分布式架构开发</p>
+                    <p class="secP">JavaEE就业班</p>
+                    <p class="lastP">月薪: 12-20K</p>
+                    <div class="change">学习人数165人</div>
+                </div>
+                <div>
+                    <div><img src="./img/emp_car_img5.png" alt=""></div>
+                    <p class="firP">Android高级开发工程师</p>
+                    <p class="secP">Android就业班</p>
+                    <p class="lastP">月薪: 10-12K</p>
+                    <div class="change">学习人数145人</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- 热门推荐 -->
+    <div id="hotMain" class="container clearfix">
+        <p class="title">热门推荐</p>
+        <div class="hotMid">
+            <div class="littleNav">
+                <ul>
+                    <li><a href="#">热门推荐</a></li>
+                    <li><a href="#">Python</a></li>
+                    <li><a href="#">HTML5</a></li>
+                    <li><a href="#">Java</a></li>
+                    <li><a href="#">Linux</a></li>
+                    <li><a href="#">测试</a></li>
+                    <li><a href="#">UI</a></li>
+                    <li><a href="#">PHP</a></li>
+                </ul>
+            </div>
+            <div class="rightNav"><a href="#">更多课程></a></div>
+        </div>
+        <div class="dList clearfix">
+            <div>
+                <dl>
+                    <dt><img src="./img/5.jpg" alt=""></dt>
+                    <dd>
+                        <p class="dPf">威哥Java核心技术（全套）</p>
+                        <p class="dPs">
+                            <span
+                                class="price">¥999.00</span>&emsp13;&emsp13;&emsp13;&emsp13;&emsp13;&emsp13;&emsp13;&emsp13;&emsp13;&emsp13;&emsp13;&emsp13;&emsp13;&emsp13;&emsp13;&emsp13;<span><img
+                                    src="./img/person.jpg" alt="">2454</span>
+                        </p>
+                    </dd>
+                </dl>
+            </div>
+            <div>
+                <dl>
+                    <dt><img src="./img/4.png" alt=""></dt>
+                    <dd>
+                        <p class="dPf">UI设计综合实战案例大集合</p>
+                        <p class="dPs">
+                            <span
+                                class="price">¥69.00</span>&emsp13;&emsp13;&emsp13;&emsp13;&emsp13;&emsp13;&emsp13;&emsp13;&emsp13;&emsp13;&emsp13;&emsp13;&emsp13;&emsp13;&emsp13;&emsp13;<span><img
+                                    src="./img/person.jpg" alt="">2424</span>
+                        </p>
+                    </dd>
+                </dl>
+            </div>
+            <div>
+                <dl>
+                    <dt><img src="./img/3.jpg" alt=""></dt>
+                    <dd>
+                        <p class="dPf">快速学习以太坊开发从入门到精通</p>
+                        <p class="dPs">
+                            <span
+                                class="price">¥78.00</span>&emsp13;&emsp13;&emsp13;&emsp13;&emsp13;&emsp13;&emsp13;&emsp13;&emsp13;&emsp13;&emsp13;&emsp13;&emsp13;&emsp13;&emsp13;&emsp13;<span><img
+                                    src="./img/person.jpg" alt="">2194</span>
+                        </p>
+                    </dd>
+                </dl>
+            </div>
+            <div>
+                <dl>
+                    <dt><img src="./img/2.jpg" alt=""></dt>
+                    <dd>
+                        <p class="dPf">Python爬虫从入门到高级实战精品课</p>
+                        <p class="dPs">
+                            <span
+                                class="price">¥934.00</span>&emsp13;&emsp13;&emsp13;&emsp13;&emsp13;&emsp13;&emsp13;&emsp13;&emsp13;&emsp13;&emsp13;&emsp13;&emsp13;&emsp13;&emsp13;&emsp13;<span><img
+                                    src="./img/person.jpg" alt="">1007</span>
+                        </p>
+                    </dd>
+                </dl>
+            </div>
+            <div>
+                <dl>
+                    <dt><img src="./img/1.jpg" alt=""></dt>
+                    <dd>
+                        <p class="dPf">微信小程序基础与实战</p>
+                        <p class="dPs">
+                            <span
+                                class="price">¥124.00</span>&emsp13;&emsp13;&emsp13;&emsp13;&emsp13;&emsp13;&emsp13;&emsp13;&emsp13;&emsp13;&emsp13;&emsp13;&emsp13;&emsp13;&emsp13;&emsp13;<span><img
+                                    src="./img/person.jpg" alt="">3458</span>
+                        </p>
+                    </dd>
+                </dl>
+            </div>
+        </div>
+    </div>
+    <!-- 广告条 -->
+    <div id="ad" class="container"><img src="./img/flex_block_img1.png" alt=""></div>
+    <!-- 新闻&学员故事 -->
+    <div class="outside">
+        <div id="news" class="container clearfix">
+            <div>
+                <div class="top">
+                    <span class="spanL1">学员故事</span><span class="spanR1">更多</span>
+                </div>
+                <div class="story">
+                    <div class="lStory"><img src="./img/159.png" alt=""></div>
+                    <div class="rStory">
+                        <span>刘同学</span>
+                        <span>月薪：15k 长城宽带</span>
+                    </div>
+                <div class="words">程序员不仅是一个很厉害而且是一个很潮的职业，千锋老师24小时跟踪学习。 每个老师都非常的细心，帮助学习，帮助就业</div>
+                </div>
+                <div class="story">
+                    <div class="lStory"><img src="./img/963.png" alt=""></div>
+                    <div class="rStory">
+                        <span>丁萍</span>
+                        <span>月薪：13k 北京某科技有限公司</span>
+                    </div>
+                <div class="words">学员感言视频刚进入千锋的时候，还是有过忐忑的，也不知道自己选择的这条路到底对不对。经过在千锋一周时间，感觉还是想走下去，还是相信自己能够坚持走</div>
+                </div>
+            </div>
+            <div>
+                <div class="top">
+                    <span class="spanL1 spanL2">新闻资讯</span><span class="spanR1">更多</span>
+                </div>
+                <p class="page1">11月15日UI设计公开课教你如何设计高转化率双11海报</p>
+                <div class="newsDetails">今天扣丁学堂UI培训直播公开课老师给大家介绍一下关于设计总监教你高转化率双11海报设计的详细介绍，希望对同学们学习UI设计有所帮助，下面我们一起来看一下吧。腾讯课堂直播地址：https://ke.qq...</div>
+                <p class="page1">11月15日区块链公开课带你了解智能合约安全与漏洞防范案例分析</p>
+                <div class="newsDetails">今天扣丁学堂区块链培训直播公开课给大家介绍一下智能合约安全与漏洞防范案例分析的详细介绍，希望对同学们学习区块链开发有所帮助，下面我们一起来看一下。腾讯课堂直播地址：https://ke.qq.com/...</div>
+            </div>
+            <div>
+                <div class="top">
+                    <span class="spanL1 spanL3">微视频</span><span class="spanR1">更多</span>
+                </div>
+                <div class="video"><img src="./img/video.gif" alt=""></div>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- 地址&友链 -->
+    <div id="address"></div>
+</body>
+
+</html>
